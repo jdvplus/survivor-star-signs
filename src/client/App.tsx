@@ -1,7 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 
-import { Survivors } from '../server/types';
+import { Survivors } from '../types';
 
 function App() {
   const [count, setCount] = useState<number>(0);

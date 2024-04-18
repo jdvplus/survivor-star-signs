@@ -1,6 +1,6 @@
 import ViteExpress from 'vite-express';
-
 import express, { ErrorRequestHandler } from 'express';
+
 import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
@@ -8,12 +8,13 @@ const __dirname = dirname(__filename);
 
 import exampleRouter from './routers/exampleRouter.ts';
 import contestantController from './controllers/contestantController.ts';
+
 const { getContestants } = contestantController;
 
 const app = express();
 const PORT = 6969;
 
-app.use('/assets', express.static(path.join(__dirname, '../public')));
+app.use('/assets', express.static(path.join(__dirname, '../../public')));
 app.use(express.json());
 
 app.use('/router', exampleRouter);

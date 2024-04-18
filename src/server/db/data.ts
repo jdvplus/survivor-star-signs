@@ -1,4 +1,4 @@
-import { Survivors, ZodiacSign, Element, Modality } from '../types.ts';
+import { Survivors, ZodiacSign, Element, Modality } from '../../types.ts';
 
 const survivors: Array<Survivors> = [
   // Borneo

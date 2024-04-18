@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { Survivors } from '../types.ts';
+import { Survivors } from '../../types.ts';
 
 export const writeDb = (
   data: Array<Survivors>,
