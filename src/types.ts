@@ -43,11 +43,7 @@ enum Modality {
 }
 
 type ContestantController = {
-  getContestants: (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ) => Promise<void>;
+  getContestants: (req: Request, res: Response, next: NextFunction) => void;
 };
 
 export { Survivors, ZodiacSign, Element, Modality, ContestantController };
