@@ -3,12 +3,12 @@ import { Request, Response, NextFunction } from 'express';
 type Survivors = {
   id?: number; // dynamically added after
   contestant: string;
-  seasons: number | number[];
+  seasons: number | Array<number>;
   birthday: Date;
   zodiacSign: ZodiacSign;
   element: Element;
   modality: Modality;
-  placements: number | number[];
+  placements: number | Array<number>;
   appearances: number;
   runnerUp?: true;
   winner?: true;

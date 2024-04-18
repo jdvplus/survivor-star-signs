@@ -1,11 +1,11 @@
 import fs from 'fs';
 
-// export const readDb = (db: string = 'src/db/db.json') => {
-//   const data = fs.readFileSync(db, 'utf-8');
-//   return JSON.parse(data);
-// };
+import { Survivors } from '../types';
 
-export const writeDb = (data: object, db: string = 'src/db/db.json') => {
+export const writeDb = (
+  data: Array<Survivors>,
+  db: string = 'src/db/db.json'
+) => {
   if (!data) return 'invalid input';
 
   try {

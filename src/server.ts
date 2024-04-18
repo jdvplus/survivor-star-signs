@@ -16,7 +16,7 @@ app.use('/router', exampleRouter);
 app.get('/', (_, res) => res.send('hello world!'));
 
 app.get('/survivors', getContestants, (_, res) =>
-  res.status(200).send(res.locals.contestants)
+  res.status(200).json(res.locals.contestants)
 );
 
 app.use((_, res) => res.status(404).send('oops! nothing here.'));
