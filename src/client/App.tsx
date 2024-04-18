@@ -1,34 +1,40 @@
-import "./App.css";
+import './App.css';
+import { useState, useEffect } from 'react';
 
-import { useState } from "react";
-
-import reactLogo from "./assets/react.svg";
+import { Survivors } from '../server/types';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
+  const [survivorData, setSurvivorData] = useState<Array<Survivors>>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch('/survivors');
+      const data = await res.json();
+
+      setSurvivorData(data);
+    };
+
+    fetchData();
+  }, []);
+
+  useEffect(() => console.log('survivor data', survivorData), [survivorData]);
 
   return (
-    <div className="App">
+    <div className='App'>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img
+          src='/1/colleen.png'
+          alt='Colleen Haskell'
+          style={{ display: 'block', margin: '0 auto', height: '25rem' }}
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
+      <h1>survivor zodiac</h1>
+      <div className='card'>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
   );
 }
