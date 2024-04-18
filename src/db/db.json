@@ -7,7 +7,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 116
   },
   {
     "contestant": "B.B. Andersen",
@@ -17,7 +18,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 115
   },
   {
     "contestant": "Stacey Stillman",
@@ -27,7 +29,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 114
   },
   {
     "contestant": "Ramona Gray",
@@ -37,7 +40,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 113
   },
   {
     "contestant": "Dirk Been",
@@ -47,7 +51,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 12,
-    "appearances": 1
+    "appearances": 1,
+    "id": 112
   },
   {
     "contestant": "Joel Klug",
@@ -57,7 +62,8 @@
     "element": "Fire",
     "modality": "Cardinal",
     "placements": 11,
-    "appearances": 1
+    "appearances": 1,
+    "id": 111
   },
   {
     "contestant": "Gretchen Cordy",
@@ -67,7 +73,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 10,
-    "appearances": 1
+    "appearances": 1,
+    "id": 110
   },
   {
     "contestant": "Greg Buis",
@@ -77,7 +84,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 9,
-    "appearances": 1
+    "appearances": 1,
+    "id": 109
   },
   {
     "contestant": "Jenna Lewis",
@@ -87,7 +95,8 @@
     "element": "Water",
     "modality": "Cardinal",
     "placements": [8, 3],
-    "appearances": 1
+    "appearances": 1,
+    "id": 108
   },
   {
     "contestant": "Gervase Peterson",
@@ -98,7 +107,8 @@
     "modality": "Fixed",
     "placements": [7, 3],
     "appearances": 2,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 107
   },
   {
     "contestant": "Colleen Haskell",
@@ -108,7 +118,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 6,
-    "appearances": 1
+    "appearances": 1,
+    "id": 106
   },
   {
     "contestant": "Sean Kenniff",
@@ -118,7 +129,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 105
   },
   {
     "contestant": "Susan 'Sue' Hawk",
@@ -128,7 +140,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": [4, 13],
-    "appearances": 2
+    "appearances": 2,
+    "id": 104
   },
   {
     "contestant": "Rudy Boesch",
@@ -138,7 +151,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": [3, 17],
-    "appearances": 2
+    "appearances": 2,
+    "id": 103
   },
   {
     "contestant": "Kelly Wiglesworth",
@@ -149,7 +163,8 @@
     "modality": "Cardinal",
     "placements": [2, 11],
     "appearances": 2,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 102
   },
   {
     "contestant": "Richard Hatch",
@@ -160,7 +175,8 @@
     "modality": "Cardinal",
     "placements": [1, 14],
     "appearances": 2,
-    "winner": true
+    "winner": true,
+    "id": 101
   },
   {
     "contestant": "Debb Eaton",
@@ -170,7 +186,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 216
   },
   {
     "contestant": "Kel Gleason",
@@ -180,7 +197,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 215
   },
   {
     "contestant": "Maralyn 'Mad Dog' Hershey",
@@ -190,7 +208,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 214
   },
   {
     "contestant": "Mitchell Olson",
@@ -200,7 +219,8 @@
     "element": "Water",
     "modality": "Mutable",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 213
   },
   {
     "contestant": "Kimmi Kappenberg",
@@ -210,7 +230,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": [12, 6],
-    "appearances": 2
+    "appearances": 2,
+    "id": 212
   },
   {
     "contestant": "Michael 'Mike' Skupin",
@@ -221,7 +242,8 @@
     "modality": "Fixed",
     "placements": [11, 2],
     "appearances": 2,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 211
   },
   {
     "contestant": "Jeffrey 'Jeff' Varner",
@@ -231,7 +253,8 @@
     "element": "Fire",
     "modality": "Cardinal",
     "placements": [10, 17, 14],
-    "appearances": 3
+    "appearances": 3,
+    "id": 210
   },
   {
     "contestant": "Jerri Manthey",
@@ -241,7 +264,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": [8, 10, 4],
-    "appearances": 3
+    "appearances": 3,
+    "id": 208
   },
   {
     "contestant": "Nick Brown",
@@ -251,7 +275,8 @@
     "element": "Fire",
     "modality": "Cardinal",
     "placements": 7,
-    "appearances": 1
+    "appearances": 1,
+    "id": 207
   },
   {
     "contestant": "Amber (Brkich) Mariano",
@@ -262,7 +287,8 @@
     "modality": "Fixed",
     "placements": [6, 1, 20],
     "appearances": 3,
-    "winner": true
+    "winner": true,
+    "id": 206
   },
   {
     "contestant": "Rodger Bingham",
@@ -272,7 +298,8 @@
     "element": "Water",
     "modality": "Cardinal",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 205
   },
   {
     "contestant": "Elisabeth Filarski",
@@ -282,7 +309,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 4,
-    "appearances": 1
+    "appearances": 1,
+    "id": 204
   },
   {
     "contestant": "Keith Famie",
@@ -292,7 +320,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 3,
-    "appearances": 1
+    "appearances": 1,
+    "id": 203
   },
   {
     "contestant": "Colby Donaldson",
@@ -303,7 +332,8 @@
     "modality": "Cardinal",
     "placements": [2, 12, 5],
     "appearances": 3,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 202
   },
   {
     "contestant": "Tina Wesson",
@@ -314,7 +344,8 @@
     "modality": "Cardinal",
     "placements": [1, 18, 4],
     "appearances": 3,
-    "winner": true
+    "winner": true,
+    "id": 201
   },
   {
     "contestant": "Diane Ogden",
@@ -324,7 +355,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 316
   },
   {
     "contestant": "Jessie Camacho",
@@ -334,7 +366,8 @@
     "element": "Air",
     "modality": "Cardinal",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 315
   },
   {
     "contestant": "Carl Bilancione",
@@ -344,7 +377,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 314
   },
   {
     "contestant": "Linda Spencer",
@@ -354,7 +388,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 313
   },
   {
     "contestant": "Silas Gaither",
@@ -364,7 +399,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 12,
-    "appearances": 1
+    "appearances": 1,
+    "id": 312
   },
   {
     "contestant": "Lindsey Richter",
@@ -374,7 +410,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": 11,
-    "appearances": 1
+    "appearances": 1,
+    "id": 311
   },
   {
     "contestant": "Clarence Black",
@@ -384,7 +421,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 10,
-    "appearances": 1
+    "appearances": 1,
+    "id": 310
   },
   {
     "contestant": "Kelly Goldsmith",
@@ -394,7 +432,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 9,
-    "appearances": 1
+    "appearances": 1,
+    "id": 309
   },
   {
     "contestant": "Brandon Quinton",
@@ -404,7 +443,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 8,
-    "appearances": 1
+    "appearances": 1,
+    "id": 308
   },
   {
     "contestant": "Frank Garrison",
@@ -414,7 +454,8 @@
     "element": "Water",
     "modality": "Cardinal",
     "placements": 7,
-    "appearances": 1
+    "appearances": 1,
+    "id": 307
   },
   {
     "contestant": "Kim Powers",
@@ -424,7 +465,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 6,
-    "appearances": 1
+    "appearances": 1,
+    "id": 306
   },
   {
     "contestant": "Teresa 'T-Bird' Cooper",
@@ -434,7 +476,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 305
   },
   {
     "contestant": "Tom 'Big Tom' Buchanan",
@@ -444,7 +487,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": [4, 5],
-    "appearances": 2
+    "appearances": 2,
+    "id": 304
   },
   {
     "contestant": "Lex van den Berghe",
@@ -454,7 +498,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": [3, 9],
-    "appearances": 2
+    "appearances": 2,
+    "id": 303
   },
   {
     "contestant": "Kim Johnson",
@@ -465,7 +510,8 @@
     "modality": "Mutable",
     "placements": 2,
     "appearances": 1,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 302
   },
   {
     "contestant": "Ethan Zohn",
@@ -475,7 +521,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": [1, 11, 18],
-    "appearances": 3
+    "appearances": 3,
+    "id": 301
   },
   {
     "contestant": "Peter Harkey",
@@ -485,7 +532,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 416
   },
   {
     "contestant": "Patricia Jackson",
@@ -495,7 +543,8 @@
     "element": "Fire",
     "modality": "Cardinal",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 415
   },
   {
     "contestant": "Hunter Ellis",
@@ -505,7 +554,8 @@
     "element": "Water",
     "modality": "Cardinal",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 414
   },
   {
     "contestant": "Sarah Jones",
@@ -515,7 +565,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 413
   },
   {
     "contestant": "Gabriel 'Gabe' Cade",
@@ -525,7 +576,8 @@
     "element": "Water",
     "modality": "Cardinal",
     "placements": 12,
-    "appearances": 1
+    "appearances": 1,
+    "id": 412
   },
   {
     "contestant": "Gina Crews",
@@ -535,7 +587,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 11,
-    "appearances": 1
+    "appearances": 1,
+    "id": 411
   },
   {
     "contestant": "Rob 'Boston Rob' Mariano",
@@ -547,7 +600,8 @@
     "placements": [10, 2, 13, 1, 17],
     "appearances": 5,
     "runnerUp": true,
-    "winner": true
+    "winner": true,
+    "id": 410
   },
   {
     "contestant": "John Carroll",
@@ -557,7 +611,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 9,
-    "appearances": 1
+    "appearances": 1,
+    "id": 409
   },
   {
     "contestant": "Zoe Zanidakis",
@@ -567,7 +622,8 @@
     "element": "Water",
     "modality": "Mutable",
     "placements": 8,
-    "appearances": 1
+    "appearances": 1,
+    "id": 408
   },
   {
     "contestant": "Tammy Leitner",
@@ -577,7 +633,8 @@
     "element": "Water",
     "modality": "Cardinal",
     "placements": 7,
-    "appearances": 1
+    "appearances": 1,
+    "id": 407
   },
   {
     "contestant": "Robert 'The General' DeCanio",
@@ -587,7 +644,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 6,
-    "appearances": 1
+    "appearances": 1,
+    "id": 406
   },
   {
     "contestant": "Sean Rector",
@@ -597,7 +655,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 405
   },
   {
     "contestant": "Paschal English",
@@ -607,7 +666,8 @@
     "element": "Water",
     "modality": "Mutable",
     "placements": 4,
-    "appearances": 1
+    "appearances": 1,
+    "id": 404
   },
   {
     "contestant": "Kathy Vavrick-O'Brien",
@@ -617,7 +677,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": [3, 8],
-    "appearances": 2
+    "appearances": 2,
+    "id": 403
   },
   {
     "contestant": "Neleh Dennis",
@@ -628,7 +689,8 @@
     "modality": "Mutable",
     "placements": 2,
     "appearances": 1,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 402
   },
   {
     "contestant": "Vecepia Towery",
@@ -639,7 +701,8 @@
     "modality": "Mutable",
     "placements": 1,
     "appearances": 1,
-    "winner": true
+    "winner": true,
+    "id": 401
   },
   {
     "contestant": "John Raymond",
@@ -649,7 +712,8 @@
     "element": "Water",
     "modality": "Mutable",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 516
   },
   {
     "contestant": "Tanya Vance",
@@ -659,7 +723,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 515
   },
   {
     "contestant": "Jed Hildebrand",
@@ -669,7 +734,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 514
   },
   {
     "contestant": "Ghandia Johnson",
@@ -679,7 +745,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 513
   },
   {
     "contestant": "Stephanie Dill",
@@ -689,7 +756,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 12,
-    "appearances": 1
+    "appearances": 1,
+    "id": 512
   },
   {
     "contestant": "Robb Zbacnik",
@@ -699,7 +767,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": 11,
-    "appearances": 1
+    "appearances": 1,
+    "id": 511
   },
   {
     "contestant": "Shii Ann Huang",
@@ -709,7 +778,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": [10, 6],
-    "appearances": 2
+    "appearances": 2,
+    "id": 510
   },
   {
     "contestant": "Erin Collins",
@@ -719,7 +789,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 9,
-    "appearances": 1
+    "appearances": 1,
+    "id": 509
   },
   {
     "contestant": "Ken Stafford",
@@ -729,7 +800,8 @@
     "element": "Air",
     "modality": "Mutable",
     "placements": 8,
-    "appearances": 1
+    "appearances": 1,
+    "id": 508
   },
   {
     "contestant": "Penny Ramsey",
@@ -739,7 +811,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 7,
-    "appearances": 1
+    "appearances": 1,
+    "id": 507
   },
   {
     "contestant": "Jake Billingsley",
@@ -749,7 +822,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 6,
-    "appearances": 1
+    "appearances": 1,
+    "id": 506
   },
   {
     "contestant": "Ted Rogers, Jr.",
@@ -759,7 +833,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 505
   },
   {
     "contestant": "Helen Glover",
@@ -769,7 +844,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 4,
-    "appearances": 1
+    "appearances": 1,
+    "id": 504
   },
   {
     "contestant": "Jan Gentry",
@@ -779,7 +855,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 3,
-    "appearances": 1
+    "appearances": 1,
+    "id": 503
   },
   {
     "contestant": "Clay Jordan",
@@ -790,7 +867,8 @@
     "modality": "Cardinal",
     "placements": 2,
     "appearances": 1,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 502
   },
   {
     "contestant": "Brian Heidik",
@@ -801,7 +879,8 @@
     "modality": "Mutable",
     "placements": 1,
     "appearances": 1,
-    "winner": true
+    "winner": true,
+    "id": 501
   },
   {
     "contestant": "Ryan Aiken",
@@ -811,7 +890,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 616
   },
   {
     "contestant": "Janet Koth",
@@ -821,7 +901,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 615
   },
   {
     "contestant": "Daniel Lue",
@@ -831,7 +912,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 614
   },
   {
     "contestant": "JoAnna Ward",
@@ -841,7 +923,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 613
   },
   {
     "contestant": "Jeanne Hebert",
@@ -851,7 +934,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 12,
-    "appearances": 1
+    "appearances": 1,
+    "id": 612
   },
   {
     "contestant": "Shawna Mitchell",
@@ -861,7 +945,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 11,
-    "appearances": 1
+    "appearances": 1,
+    "id": 611
   },
   {
     "contestant": "Roger Sexton",
@@ -871,7 +956,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 10,
-    "appearances": 1
+    "appearances": 1,
+    "id": 610
   },
   {
     "contestant": "Dave Johnson",
@@ -881,7 +967,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 9,
-    "appearances": 1
+    "appearances": 1,
+    "id": 609
   },
   {
     "contestant": "Deena Bennett",
@@ -891,7 +978,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": 8,
-    "appearances": 1
+    "appearances": 1,
+    "id": 608
   },
   {
     "contestant": "Alex Bell",
@@ -901,7 +989,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 7,
-    "appearances": 1
+    "appearances": 1,
+    "id": 607
   },
   {
     "contestant": "Christy Smith",
@@ -911,7 +1000,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": 6,
-    "appearances": 1
+    "appearances": 1,
+    "id": 606
   },
   {
     "contestant": "Heidi Strobel",
@@ -921,7 +1011,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 605
   },
   {
     "contestant": "Butch Lockley",
@@ -931,7 +1022,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": 4,
-    "appearances": 1
+    "appearances": 1,
+    "id": 604
   },
   {
     "contestant": "Rob Cesternino",
@@ -941,7 +1033,8 @@
     "element": "Air",
     "modality": "Cardinal",
     "placements": [3, 15],
-    "appearances": 2
+    "appearances": 2,
+    "id": 603
   },
   {
     "contestant": "Matthew von Ertfelda",
@@ -952,7 +1045,8 @@
     "modality": "Fixed",
     "placements": 2,
     "appearances": 1,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 602
   },
   {
     "contestant": "Jenna Morasca",
@@ -963,7 +1057,8 @@
     "modality": "Fixed",
     "placements": [1, 16],
     "appearances": 2,
-    "winner": true
+    "winner": true,
+    "id": 601
   },
   {
     "contestant": "Nicole Delma",
@@ -973,7 +1068,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": 16,
-    "appearances": 1
+    "appearances": 1,
+    "id": 716
   },
   {
     "contestant": "Ryan Shoulders",
@@ -983,7 +1079,8 @@
     "element": "Fire",
     "modality": "Cardinal",
     "placements": 15,
-    "appearances": 1
+    "appearances": 1,
+    "id": 715
   },
   {
     "contestant": "Michelle Tesauro",
@@ -993,7 +1090,8 @@
     "element": "Earth",
     "modality": "Cardinal",
     "placements": 14,
-    "appearances": 1
+    "appearances": 1,
+    "id": 714
   },
   {
     "contestant": "Trish Dunn",
@@ -1003,7 +1101,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 13,
-    "appearances": 1
+    "appearances": 1,
+    "id": 713
   },
   {
     "contestant": "Shawn Cohen",
@@ -1013,7 +1112,8 @@
     "element": "Earth",
     "modality": "Mutable",
     "placements": 12,
-    "appearances": 1
+    "appearances": 1,
+    "id": 712
   },
   {
     "contestant": "Osten Taylor",
@@ -1023,7 +1123,8 @@
     "element": "Fire",
     "modality": "Mutable",
     "placements": 11,
-    "appearances": 1
+    "appearances": 1,
+    "id": 711
   },
   {
     "contestant": "Andrew Savage",
@@ -1033,7 +1134,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": [10, 12],
-    "appearances": 2
+    "appearances": 2,
+    "id": 710
   },
   {
     "contestant": "Ryan 'Ryno' Opray",
@@ -1043,7 +1145,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 9,
-    "appearances": 1
+    "appearances": 1,
+    "id": 709
   },
   {
     "contestant": "Rupert Boneham",
@@ -1053,7 +1156,8 @@
     "element": "Air",
     "modality": "Fixed",
     "placements": [8, 4, 6, 20],
-    "appearances": 4
+    "appearances": 4,
+    "id": 708
   },
   {
     "contestant": "Tijuana Bradley",
@@ -1063,7 +1167,8 @@
     "element": "Fire",
     "modality": "Fixed",
     "placements": 7,
-    "appearances": 1
+    "appearances": 1,
+    "id": 707
   },
   {
     "contestant": "Christa Hastie",
@@ -1073,7 +1178,8 @@
     "element": "Water",
     "modality": "Fixed",
     "placements": 6,
-    "appearances": 1
+    "appearances": 1,
+    "id": 706
   },
   {
     "contestant": "Burton Roberts",
@@ -1083,7 +1189,8 @@
     "element": "Fire",
     "modality": "Cardinal",
     "placements": 5,
-    "appearances": 1
+    "appearances": 1,
+    "id": 705
   },
   {
     "contestant": "Darrah Johnson",
@@ -1093,7 +1200,8 @@
     "element": "Earth",
     "modality": "Fixed",
     "placements": 4,
-    "appearances": 1
+    "appearances": 1,
+    "id": 704
   },
   {
     "contestant": "Jon 'Jonny Fairplay' Dalton",
@@ -1103,7 +1211,8 @@
     "element": "Water",
     "modality": "Mutable",
     "placements": [3, 20],
-    "appearances": 2
+    "appearances": 2,
+    "id": 703
   },
   {
     "contestant": "Lillian 'Lill' Morris",
@@ -1114,7 +1223,8 @@
     "modality": "Cardinal",
     "placements": 2,
     "appearances": 1,
-    "runnerUp": true
+    "runnerUp": true,
+    "id": 702
   },
   {
     "contestant": "Sandra Diaz-Twine",
@@ -1125,6 +1235,7 @@
     "modality": "Fixed",
     "placements": [1, 1, 15, 16],
     "appearances": 4,
-    "winner": true
+    "winner": true,
+    "id": 701
   }
 ]

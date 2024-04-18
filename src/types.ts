@@ -1,4 +1,5 @@
 type Survivors = {
+  id?: number; // dynamically added after
   contestant: string;
   seasons: number | number[];
   birthday: Date;
