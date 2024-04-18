@@ -4,6 +4,7 @@ type Survivors = {
   birthday: Date;
   zodiacSign: ZodiacSign;
   element: Element;
+  modality: Modality;
   placements: number | number[];
   appearances: number;
   winner?: true;
@@ -32,4 +33,10 @@ enum Element {
   Water = 'Water',
 }
 
-export { Survivors, ZodiacSign, Element };
+enum Modality {
+  Cardinal = 'Cardinal',
+  Fixed = 'Fixed',
+  Mutable = 'Mutable',
+}
+
+export { Survivors, ZodiacSign, Element, Modality };
