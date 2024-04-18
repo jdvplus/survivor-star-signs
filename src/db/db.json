@@ -80,13 +80,13 @@
     "appearances": 1
   },
   {
-    "contestant": "Ramona Gray",
-    "seasons": 1,
+    "contestant": "Jenna Lewis",
+    "seasons": [1, 8],
     "birthday": "1977-07-16T07:00:00.000Z",
     "zodiacSign": "Cancer",
     "element": "Water",
     "modality": "Cardinal",
-    "placements": 8,
+    "placements": [8, 3],
     "appearances": 1
   },
   {

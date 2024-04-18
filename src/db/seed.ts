@@ -84,13 +84,13 @@ const survivors: Survivors[] = [
     appearances: 1,
   },
   {
-    contestant: 'Ramona Gray',
-    seasons: 1,
+    contestant: 'Jenna Lewis',
+    seasons: [1, 8],
     birthday: new Date(77, 6, 16),
     zodiacSign: ZodiacSign.Cancer,
     element: Element.Water,
     modality: Modality.Cardinal,
-    placements: 8,
+    placements: [8, 3],
     appearances: 1,
   },
   {
