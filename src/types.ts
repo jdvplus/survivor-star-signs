@@ -1,3 +1,5 @@
+import { Request, Response, NextFunction } from 'express';
+
 type Survivors = {
   id?: number; // dynamically added after
   contestant: string;
@@ -40,4 +42,12 @@ enum Modality {
   Mutable = 'Mutable',
 }
 
-export { Survivors, ZodiacSign, Element, Modality };
+type ContestantController = {
+  getContestants: (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => Promise<void>;
+};
+
+export { Survivors, ZodiacSign, Element, Modality, ContestantController };

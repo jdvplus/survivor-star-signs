@@ -239,6 +239,16 @@ const survivors: Survivors[] = [
     appearances: 3,
   },
   {
+    contestant: 'Alicia Calaway',
+    seasons: [2, 8],
+    birthday: new Date(68, 4, 1),
+    zodiacSign: ZodiacSign.Taurus,
+    element: Element.Earth,
+    modality: Modality.Fixed,
+    placements: [9, 7],
+    appearances: 2,
+  },
+  {
     contestant: 'Jerri Manthey',
     seasons: [2, 8, 20],
     birthday: new Date(70, 8, 5),

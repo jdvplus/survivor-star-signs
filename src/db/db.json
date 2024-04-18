@@ -257,6 +257,17 @@
     "id": 210
   },
   {
+    "contestant": "Alicia Calaway",
+    "seasons": [2, 8],
+    "birthday": "1968-05-01T07:00:00.000Z",
+    "zodiacSign": "Taurus",
+    "element": "Earth",
+    "modality": "Fixed",
+    "placements": [9, 7],
+    "appearances": 2,
+    "id": 209
+  },
+  {
     "contestant": "Jerri Manthey",
     "seasons": [2, 8, 20],
     "birthday": "1970-09-05T07:00:00.000Z",
