@@ -7,8 +7,8 @@ type Survivors = {
   modality: Modality;
   placements: number | number[];
   appearances: number;
-  winner?: true;
   runnerUp?: true;
+  winner?: true;
 };
 
 enum ZodiacSign {
