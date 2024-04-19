@@ -2,13 +2,14 @@ import './App.css';
 import { useState, useEffect } from 'react';
 
 import { Survivors } from '../types';
+import { Button } from './components/ui/button';
 
 function App() {
   const [count, setCount] = useState<number>(0);
   const [survivorData, setSurvivorData] = useState<Array<Survivors>>([]);
 
   const fetchData = async () => {
-    const res = await fetch('/survivors');
+    const res = await fetch('/api/survivors');
     const data = await res.json();
 
     setSurvivorData(data);
@@ -34,6 +35,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Button>shadcn test</Button>
       </div>
     </div>
   );
