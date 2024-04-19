@@ -7,14 +7,14 @@ function App() {
   const [count, setCount] = useState<number>(0);
   const [survivorData, setSurvivorData] = useState<Array<Survivors>>([]);
 
+  const fetchData = async () => {
+    const res = await fetch('/survivors');
+    const data = await res.json();
+
+    setSurvivorData(data);
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch('/survivors');
-      const data = await res.json();
-
-      setSurvivorData(data);
-    };
-
     fetchData();
   }, []);
 
