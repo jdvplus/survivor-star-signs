@@ -1,12 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ['class'],
-  content: [
-    './index.html',
-    './src/**/*.{ts,tsx,js,jsx}',
-  ],
-  // prefix: '',
+  content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
   theme: {
+    fontFamily: {
+      sans: ['PP Neue Montreal', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: '2rem',
