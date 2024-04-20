@@ -10,7 +10,7 @@ const App = () => {
 
       <div className='card'>
         <img
-          src='/1/colleen.png'
+          src='/1/6.png'
           alt='Colleen Haskell'
           style={{ display: 'block', margin: '0 auto', height: '30em' }}
         />

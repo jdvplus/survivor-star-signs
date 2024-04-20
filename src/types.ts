@@ -2,6 +2,8 @@ import { Request, Response, NextFunction } from 'express';
 
 type Survivors = {
   id?: number; // dynamically added after
+  pathToPhoto?: string; // dynamically added after
+
   contestant: string;
   seasons: number | Array<number>;
   birthday: Date;
