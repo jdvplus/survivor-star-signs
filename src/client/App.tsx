@@ -6,7 +6,7 @@ import { ModeToggle } from './components/mode-toggle';
 
 const App = () => {
   return (
-    <div>
+    <>
       <h1>survivor zodiac</h1>
 
       <div className='card'>
@@ -23,10 +23,8 @@ const App = () => {
 
       <ModeToggle />
 
-      <div className='card'>
-        <Home />
-      </div>
-    </div>
+      <Home />
+    </>
   );
 };
 

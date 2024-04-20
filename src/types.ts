@@ -46,6 +46,7 @@ enum Modality {
 
 type ContestantController = {
   getContestants: (req: Request, res: Response, next: NextFunction) => void;
+  getBySign: (req: Request, res: Response, next: NextFunction) => void;
 };
 
 export {
