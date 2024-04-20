@@ -15,7 +15,8 @@ const Home = () => {
 
   const fetchData = async () => {
     const res = await fetch('/api/survivors');
-    const data = await res.json();
+    let data = await res.json();
+    data = data.slice(0, 16);
 
     setSurvivorData(data);
   };
@@ -28,11 +29,25 @@ const Home = () => {
 
   return (
     <div className='container'>
-      <Carousel>
+      <Carousel
+        opts={{
+          loop: true,
+        }}
+      >
         <CarouselContent>
-          <CarouselItem>test2</CarouselItem>
-          <CarouselItem>test3</CarouselItem>
-          <CarouselItem>test5</CarouselItem>
+          {survivorData.map((survivor) => {
+            return (
+              <CarouselItem key={survivor.contestant} className='basis-1/2'>
+                <img
+                  className='h-[30em] m-auto rounded-xl'
+                  src={survivor.pathToPhoto}
+                  alt={survivor.contestant}
+                />
+                <p>{survivor.contestant.toLowerCase()}</p>
+                <p>{survivor.zodiacSign.toLowerCase()}</p>
+              </CarouselItem>
+            );
+          })}
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />

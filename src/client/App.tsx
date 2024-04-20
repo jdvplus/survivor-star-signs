@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './Home';
 
 import { Button } from './components/ui/button';
 import { ModeToggle } from './components/mode-toggle';
@@ -10,9 +11,9 @@ const App = () => {
 
       <div className='card'>
         <img
-          src='/1/6.png'
-          alt='Colleen Haskell'
-          style={{ display: 'block', margin: '0 auto', height: '30em' }}
+          className='h-[20em] m-auto rounded-xl'
+          src='cover-photo.png'
+          alt='dave & alex'
         />
       </div>
 
@@ -21,6 +22,10 @@ const App = () => {
       </div>
 
       <ModeToggle />
+
+      <div className='card'>
+        <Home />
+      </div>
     </div>
   );
 };
