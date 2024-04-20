@@ -63,8 +63,10 @@ const Home = () => {
     fetchBySign();
   }, [selectedSign]);
 
-  // useEffect(() => console.log('survivor data', survivorData), [survivorData]);
+  useEffect(() => console.log('survivor data', survivorData), [survivorData]);
   // useEffect(() => console.log('selected sign', selectedSign), [selectedSign]);
+
+  //TODO: add gender option
 
   return (
     <div className='container'>
@@ -83,8 +85,15 @@ const Home = () => {
         </Select>
       </div>
 
-      <div className='container p-4'>
-        {selectedSign ? (
+      {selectedSign ? (
+        <div className='container p-4'>
+          <p className='text-3xl mb-4'>
+            {survivorData.length}{' '}
+            {selectedSign[selectedSign.length - 1] === 's'
+              ? selectedSign
+              : `${selectedSign}s`}{' '}
+            have played Survivor.
+          </p>
           <Carousel
             opts={{
               loop: true,
@@ -106,8 +115,8 @@ const Home = () => {
             <CarouselPrevious />
             <CarouselNext />
           </Carousel>
-        ) : null}
-      </div>
+        </div>
+      ) : null}
     </div>
   );
 };
