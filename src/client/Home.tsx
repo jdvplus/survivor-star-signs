@@ -1,25 +1,40 @@
 import { useState, useEffect } from 'react';
 
-import { Survivors, ZodiacSign } from '@/types';
-
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from './components/ui/select';
+} from '@/client/components/ui/select';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from './components/ui/carousel';
+} from '@/client/components/ui/carousel';
+
+import { Survivors, ZodiacSign } from '@/types';
 
 const Home = () => {
   const [survivorData, setSurvivorData] = useState<Array<Survivors>>([]);
   const [selectedSign, setSelectedSign] = useState('');
+
+  const zodiacSigns: Array<ZodiacSign> = [
+    ZodiacSign.Aries,
+    ZodiacSign.Taurus,
+    ZodiacSign.Gemini,
+    ZodiacSign.Cancer,
+    ZodiacSign.Leo,
+    ZodiacSign.Virgo,
+    ZodiacSign.Libra,
+    ZodiacSign.Scorpio,
+    ZodiacSign.Sagittarius,
+    ZodiacSign.Capricorn,
+    ZodiacSign.Aquarius,
+    ZodiacSign.Pisces,
+  ];
 
   //TODO: figure out best way to show all survivors
   // useEffect(() => {
@@ -51,24 +66,9 @@ const Home = () => {
   // useEffect(() => console.log('survivor data', survivorData), [survivorData]);
   // useEffect(() => console.log('selected sign', selectedSign), [selectedSign]);
 
-  const zodiacSigns: Array<ZodiacSign> = [
-    ZodiacSign.Aries,
-    ZodiacSign.Taurus,
-    ZodiacSign.Gemini,
-    ZodiacSign.Cancer,
-    ZodiacSign.Leo,
-    ZodiacSign.Virgo,
-    ZodiacSign.Libra,
-    ZodiacSign.Scorpio,
-    ZodiacSign.Sagittarius,
-    ZodiacSign.Capricorn,
-    ZodiacSign.Aquarius,
-    ZodiacSign.Pisces,
-  ];
-
   return (
     <div className='container'>
-      <div className='card'>
+      <div className='container p-4'>
         <Select value={selectedSign} onValueChange={setSelectedSign}>
           <SelectTrigger className='h-[4em] w-[20em] m-auto'>
             <SelectValue className='m-auto' placeholder='select a sign' />
@@ -82,7 +82,8 @@ const Home = () => {
           </SelectContent>
         </Select>
       </div>
-      <div className='card'>
+
+      <div className='container p-4'>
         {selectedSign ? (
           <Carousel
             opts={{
