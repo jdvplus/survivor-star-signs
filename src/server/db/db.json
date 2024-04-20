@@ -8,7 +8,8 @@
     "modality": "Fixed",
     "placements": 16,
     "appearances": 1,
-    "id": 116
+    "id": 116,
+    "pathToPhoto": "/1/16.png"
   },
   {
     "contestant": "B.B. Andersen",
@@ -19,7 +20,8 @@
     "modality": "Fixed",
     "placements": 15,
     "appearances": 1,
-    "id": 115
+    "id": 115,
+    "pathToPhoto": "/1/15.png"
   },
   {
     "contestant": "Stacey Stillman",
@@ -30,7 +32,8 @@
     "modality": "Fixed",
     "placements": 14,
     "appearances": 1,
-    "id": 114
+    "id": 114,
+    "pathToPhoto": "/1/14.png"
   },
   {
     "contestant": "Ramona Gray",
@@ -41,7 +44,8 @@
     "modality": "Fixed",
     "placements": 13,
     "appearances": 1,
-    "id": 113
+    "id": 113,
+    "pathToPhoto": "/1/13.png"
   },
   {
     "contestant": "Dirk Been",
@@ -52,7 +56,8 @@
     "modality": "Mutable",
     "placements": 12,
     "appearances": 1,
-    "id": 112
+    "id": 112,
+    "pathToPhoto": "/1/12.png"
   },
   {
     "contestant": "Joel Klug",
@@ -63,7 +68,8 @@
     "modality": "Cardinal",
     "placements": 11,
     "appearances": 1,
-    "id": 111
+    "id": 111,
+    "pathToPhoto": "/1/11.png"
   },
   {
     "contestant": "Gretchen Cordy",
@@ -74,7 +80,8 @@
     "modality": "Fixed",
     "placements": 10,
     "appearances": 1,
-    "id": 110
+    "id": 110,
+    "pathToPhoto": "/1/10.png"
   },
   {
     "contestant": "Greg Buis",
@@ -85,7 +92,8 @@
     "modality": "Cardinal",
     "placements": 9,
     "appearances": 1,
-    "id": 109
+    "id": 109,
+    "pathToPhoto": "/1/9.png"
   },
   {
     "contestant": "Jenna Lewis",
@@ -96,7 +104,8 @@
     "modality": "Cardinal",
     "placements": [8, 3],
     "appearances": 1,
-    "id": 108
+    "id": 108,
+    "pathToPhoto": "/1/8.png"
   },
   {
     "contestant": "Gervase Peterson",
@@ -108,7 +117,8 @@
     "placements": [7, 3],
     "appearances": 2,
     "runnerUp": true,
-    "id": 107
+    "id": 107,
+    "pathToPhoto": "/1/7.png"
   },
   {
     "contestant": "Colleen Haskell",
@@ -119,7 +129,8 @@
     "modality": "Mutable",
     "placements": 6,
     "appearances": 1,
-    "id": 106
+    "id": 106,
+    "pathToPhoto": "/1/6.png"
   },
   {
     "contestant": "Sean Kenniff",
@@ -130,7 +141,8 @@
     "modality": "Mutable",
     "placements": 5,
     "appearances": 1,
-    "id": 105
+    "id": 105,
+    "pathToPhoto": "/1/5.png"
   },
   {
     "contestant": "Susan 'Sue' Hawk",
@@ -141,7 +153,8 @@
     "modality": "Fixed",
     "placements": [4, 13],
     "appearances": 2,
-    "id": 104
+    "id": 104,
+    "pathToPhoto": "/1/4.png"
   },
   {
     "contestant": "Rudy Boesch",
@@ -152,7 +165,8 @@
     "modality": "Fixed",
     "placements": [3, 17],
     "appearances": 2,
-    "id": 103
+    "id": 103,
+    "pathToPhoto": "/1/3.png"
   },
   {
     "contestant": "Kelly Wiglesworth",
@@ -164,7 +178,8 @@
     "placements": [2, 11],
     "appearances": 2,
     "runnerUp": true,
-    "id": 102
+    "id": 102,
+    "pathToPhoto": "/1/2.png"
   },
   {
     "contestant": "Richard Hatch",
@@ -176,7 +191,8 @@
     "placements": [1, 14],
     "appearances": 2,
     "winner": true,
-    "id": 101
+    "id": 101,
+    "pathToPhoto": "/1/1.png"
   },
   {
     "contestant": "Debb Eaton",
@@ -187,7 +203,8 @@
     "modality": "Mutable",
     "placements": 16,
     "appearances": 1,
-    "id": 216
+    "id": 216,
+    "pathToPhoto": "/2/16.png"
   },
   {
     "contestant": "Kel Gleason",
@@ -198,7 +215,8 @@
     "modality": "Cardinal",
     "placements": 15,
     "appearances": 1,
-    "id": 215
+    "id": 215,
+    "pathToPhoto": "/2/15.png"
   },
   {
     "contestant": "Maralyn 'Mad Dog' Hershey",
@@ -209,7 +227,8 @@
     "modality": "Fixed",
     "placements": 14,
     "appearances": 1,
-    "id": 214
+    "id": 214,
+    "pathToPhoto": "/2/14.png"
   },
   {
     "contestant": "Mitchell Olson",
@@ -220,7 +239,8 @@
     "modality": "Mutable",
     "placements": 13,
     "appearances": 1,
-    "id": 213
+    "id": 213,
+    "pathToPhoto": "/2/13.png"
   },
   {
     "contestant": "Kimmi Kappenberg",
@@ -231,7 +251,8 @@
     "modality": "Fixed",
     "placements": [12, 6],
     "appearances": 2,
-    "id": 212
+    "id": 212,
+    "pathToPhoto": "/2/12.png"
   },
   {
     "contestant": "Michael 'Mike' Skupin",
@@ -243,7 +264,8 @@
     "placements": [11, 2],
     "appearances": 2,
     "runnerUp": true,
-    "id": 211
+    "id": 211,
+    "pathToPhoto": "/2/11.png"
   },
   {
     "contestant": "Jeffrey 'Jeff' Varner",
@@ -254,7 +276,8 @@
     "modality": "Cardinal",
     "placements": [10, 17, 14],
     "appearances": 3,
-    "id": 210
+    "id": 210,
+    "pathToPhoto": "/2/10.png"
   },
   {
     "contestant": "Alicia Calaway",
@@ -265,7 +288,8 @@
     "modality": "Fixed",
     "placements": [9, 7],
     "appearances": 2,
-    "id": 209
+    "id": 209,
+    "pathToPhoto": "/2/9.png"
   },
   {
     "contestant": "Jerri Manthey",
@@ -276,7 +300,8 @@
     "modality": "Mutable",
     "placements": [8, 10, 4],
     "appearances": 3,
-    "id": 208
+    "id": 208,
+    "pathToPhoto": "/2/8.png"
   },
   {
     "contestant": "Nick Brown",
@@ -287,7 +312,8 @@
     "modality": "Cardinal",
     "placements": 7,
     "appearances": 1,
-    "id": 207
+    "id": 207,
+    "pathToPhoto": "/2/7.png"
   },
   {
     "contestant": "Amber (Brkich) Mariano",
@@ -299,7 +325,8 @@
     "placements": [6, 1, 20],
     "appearances": 3,
     "winner": true,
-    "id": 206
+    "id": 206,
+    "pathToPhoto": "/2/6.png"
   },
   {
     "contestant": "Rodger Bingham",
@@ -310,7 +337,8 @@
     "modality": "Cardinal",
     "placements": 5,
     "appearances": 1,
-    "id": 205
+    "id": 205,
+    "pathToPhoto": "/2/5.png"
   },
   {
     "contestant": "Elisabeth Filarski",
@@ -321,7 +349,8 @@
     "modality": "Mutable",
     "placements": 4,
     "appearances": 1,
-    "id": 204
+    "id": 204,
+    "pathToPhoto": "/2/4.png"
   },
   {
     "contestant": "Keith Famie",
@@ -332,7 +361,8 @@
     "modality": "Fixed",
     "placements": 3,
     "appearances": 1,
-    "id": 203
+    "id": 203,
+    "pathToPhoto": "/2/3.png"
   },
   {
     "contestant": "Colby Donaldson",
@@ -344,7 +374,8 @@
     "placements": [2, 12, 5],
     "appearances": 3,
     "runnerUp": true,
-    "id": 202
+    "id": 202,
+    "pathToPhoto": "/2/2.png"
   },
   {
     "contestant": "Tina Wesson",
@@ -356,7 +387,8 @@
     "placements": [1, 18, 4],
     "appearances": 3,
     "winner": true,
-    "id": 201
+    "id": 201,
+    "pathToPhoto": "/2/1.png"
   },
   {
     "contestant": "Diane Ogden",
@@ -367,7 +399,8 @@
     "modality": "Fixed",
     "placements": 16,
     "appearances": 1,
-    "id": 316
+    "id": 316,
+    "pathToPhoto": "/3/16.png"
   },
   {
     "contestant": "Jessie Camacho",
@@ -378,7 +411,8 @@
     "modality": "Cardinal",
     "placements": 15,
     "appearances": 1,
-    "id": 315
+    "id": 315,
+    "pathToPhoto": "/3/15.png"
   },
   {
     "contestant": "Carl Bilancione",
@@ -389,7 +423,8 @@
     "modality": "Mutable",
     "placements": 14,
     "appearances": 1,
-    "id": 314
+    "id": 314,
+    "pathToPhoto": "/3/14.png"
   },
   {
     "contestant": "Linda Spencer",
@@ -400,7 +435,8 @@
     "modality": "Cardinal",
     "placements": 13,
     "appearances": 1,
-    "id": 313
+    "id": 313,
+    "pathToPhoto": "/3/13.png"
   },
   {
     "contestant": "Silas Gaither",
@@ -411,7 +447,8 @@
     "modality": "Fixed",
     "placements": 12,
     "appearances": 1,
-    "id": 312
+    "id": 312,
+    "pathToPhoto": "/3/12.png"
   },
   {
     "contestant": "Lindsey Richter",
@@ -422,7 +459,8 @@
     "modality": "Mutable",
     "placements": 11,
     "appearances": 1,
-    "id": 311
+    "id": 311,
+    "pathToPhoto": "/3/11.png"
   },
   {
     "contestant": "Clarence Black",
@@ -433,7 +471,8 @@
     "modality": "Mutable",
     "placements": 10,
     "appearances": 1,
-    "id": 310
+    "id": 310,
+    "pathToPhoto": "/3/10.png"
   },
   {
     "contestant": "Kelly Goldsmith",
@@ -444,7 +483,8 @@
     "modality": "Fixed",
     "placements": 9,
     "appearances": 1,
-    "id": 309
+    "id": 309,
+    "pathToPhoto": "/3/9.png"
   },
   {
     "contestant": "Brandon Quinton",
@@ -455,7 +495,8 @@
     "modality": "Fixed",
     "placements": 8,
     "appearances": 1,
-    "id": 308
+    "id": 308,
+    "pathToPhoto": "/3/8.png"
   },
   {
     "contestant": "Frank Garrison",
@@ -466,7 +507,8 @@
     "modality": "Cardinal",
     "placements": 7,
     "appearances": 1,
-    "id": 307
+    "id": 307,
+    "pathToPhoto": "/3/7.png"
   },
   {
     "contestant": "Kim Powers",
@@ -477,7 +519,8 @@
     "modality": "Mutable",
     "placements": 6,
     "appearances": 1,
-    "id": 306
+    "id": 306,
+    "pathToPhoto": "/3/6.png"
   },
   {
     "contestant": "Teresa 'T-Bird' Cooper",
@@ -488,7 +531,8 @@
     "modality": "Fixed",
     "placements": 5,
     "appearances": 1,
-    "id": 305
+    "id": 305,
+    "pathToPhoto": "/3/5.png"
   },
   {
     "contestant": "Tom 'Big Tom' Buchanan",
@@ -499,7 +543,8 @@
     "modality": "Fixed",
     "placements": [4, 5],
     "appearances": 2,
-    "id": 304
+    "id": 304,
+    "pathToPhoto": "/3/4.png"
   },
   {
     "contestant": "Lex van den Berghe",
@@ -510,7 +555,8 @@
     "modality": "Mutable",
     "placements": [3, 9],
     "appearances": 2,
-    "id": 303
+    "id": 303,
+    "pathToPhoto": "/3/3.png"
   },
   {
     "contestant": "Kim Johnson",
@@ -522,7 +568,8 @@
     "placements": 2,
     "appearances": 1,
     "runnerUp": true,
-    "id": 302
+    "id": 302,
+    "pathToPhoto": "/3/2.png"
   },
   {
     "contestant": "Ethan Zohn",
@@ -533,7 +580,8 @@
     "modality": "Fixed",
     "placements": [1, 11, 18],
     "appearances": 3,
-    "id": 301
+    "id": 301,
+    "pathToPhoto": "/3/1.png"
   },
   {
     "contestant": "Peter Harkey",
@@ -544,7 +592,8 @@
     "modality": "Cardinal",
     "placements": 16,
     "appearances": 1,
-    "id": 416
+    "id": 416,
+    "pathToPhoto": "/4/16.png"
   },
   {
     "contestant": "Patricia Jackson",
@@ -555,7 +604,8 @@
     "modality": "Cardinal",
     "placements": 15,
     "appearances": 1,
-    "id": 415
+    "id": 415,
+    "pathToPhoto": "/4/15.png"
   },
   {
     "contestant": "Hunter Ellis",
@@ -566,7 +616,8 @@
     "modality": "Cardinal",
     "placements": 14,
     "appearances": 1,
-    "id": 414
+    "id": 414,
+    "pathToPhoto": "/4/14.png"
   },
   {
     "contestant": "Sarah Jones",
@@ -577,7 +628,8 @@
     "modality": "Fixed",
     "placements": 13,
     "appearances": 1,
-    "id": 413
+    "id": 413,
+    "pathToPhoto": "/4/13.png"
   },
   {
     "contestant": "Gabriel 'Gabe' Cade",
@@ -588,7 +640,8 @@
     "modality": "Cardinal",
     "placements": 12,
     "appearances": 1,
-    "id": 412
+    "id": 412,
+    "pathToPhoto": "/4/12.png"
   },
   {
     "contestant": "Gina Crews",
@@ -599,7 +652,8 @@
     "modality": "Fixed",
     "placements": 11,
     "appearances": 1,
-    "id": 411
+    "id": 411,
+    "pathToPhoto": "/4/11.png"
   },
   {
     "contestant": "Rob 'Boston Rob' Mariano",
@@ -612,7 +666,8 @@
     "appearances": 5,
     "runnerUp": true,
     "winner": true,
-    "id": 410
+    "id": 410,
+    "pathToPhoto": "/4/10.png"
   },
   {
     "contestant": "John Carroll",
@@ -623,7 +678,8 @@
     "modality": "Mutable",
     "placements": 9,
     "appearances": 1,
-    "id": 409
+    "id": 409,
+    "pathToPhoto": "/4/9.png"
   },
   {
     "contestant": "Zoe Zanidakis",
@@ -634,7 +690,8 @@
     "modality": "Mutable",
     "placements": 8,
     "appearances": 1,
-    "id": 408
+    "id": 408,
+    "pathToPhoto": "/4/8.png"
   },
   {
     "contestant": "Tammy Leitner",
@@ -645,7 +702,8 @@
     "modality": "Cardinal",
     "placements": 7,
     "appearances": 1,
-    "id": 407
+    "id": 407,
+    "pathToPhoto": "/4/7.png"
   },
   {
     "contestant": "Robert 'The General' DeCanio",
@@ -656,7 +714,8 @@
     "modality": "Mutable",
     "placements": 6,
     "appearances": 1,
-    "id": 406
+    "id": 406,
+    "pathToPhoto": "/4/6.png"
   },
   {
     "contestant": "Sean Rector",
@@ -667,7 +726,8 @@
     "modality": "Fixed",
     "placements": 5,
     "appearances": 1,
-    "id": 405
+    "id": 405,
+    "pathToPhoto": "/4/5.png"
   },
   {
     "contestant": "Paschal English",
@@ -678,7 +738,8 @@
     "modality": "Mutable",
     "placements": 4,
     "appearances": 1,
-    "id": 404
+    "id": 404,
+    "pathToPhoto": "/4/4.png"
   },
   {
     "contestant": "Kathy Vavrick-O'Brien",
@@ -689,7 +750,8 @@
     "modality": "Cardinal",
     "placements": [3, 8],
     "appearances": 2,
-    "id": 403
+    "id": 403,
+    "pathToPhoto": "/4/3.png"
   },
   {
     "contestant": "Neleh Dennis",
@@ -701,7 +763,8 @@
     "placements": 2,
     "appearances": 1,
     "runnerUp": true,
-    "id": 402
+    "id": 402,
+    "pathToPhoto": "/4/2.png"
   },
   {
     "contestant": "Vecepia Towery",
@@ -713,7 +776,8 @@
     "placements": 1,
     "appearances": 1,
     "winner": true,
-    "id": 401
+    "id": 401,
+    "pathToPhoto": "/4/1.png"
   },
   {
     "contestant": "John Raymond",
@@ -724,7 +788,8 @@
     "modality": "Mutable",
     "placements": 16,
     "appearances": 1,
-    "id": 516
+    "id": 516,
+    "pathToPhoto": "/5/16.png"
   },
   {
     "contestant": "Tanya Vance",
@@ -735,7 +800,8 @@
     "modality": "Mutable",
     "placements": 15,
     "appearances": 1,
-    "id": 515
+    "id": 515,
+    "pathToPhoto": "/5/15.png"
   },
   {
     "contestant": "Jed Hildebrand",
@@ -746,7 +812,8 @@
     "modality": "Mutable",
     "placements": 14,
     "appearances": 1,
-    "id": 514
+    "id": 514,
+    "pathToPhoto": "/5/14.png"
   },
   {
     "contestant": "Ghandia Johnson",
@@ -757,7 +824,8 @@
     "modality": "Cardinal",
     "placements": 13,
     "appearances": 1,
-    "id": 513
+    "id": 513,
+    "pathToPhoto": "/5/13.png"
   },
   {
     "contestant": "Stephanie Dill",
@@ -768,7 +836,8 @@
     "modality": "Fixed",
     "placements": 12,
     "appearances": 1,
-    "id": 512
+    "id": 512,
+    "pathToPhoto": "/5/12.png"
   },
   {
     "contestant": "Robb Zbacnik",
@@ -779,7 +848,8 @@
     "modality": "Mutable",
     "placements": 11,
     "appearances": 1,
-    "id": 511
+    "id": 511,
+    "pathToPhoto": "/5/11.png"
   },
   {
     "contestant": "Shii Ann Huang",
@@ -790,7 +860,8 @@
     "modality": "Fixed",
     "placements": [10, 6],
     "appearances": 2,
-    "id": 510
+    "id": 510,
+    "pathToPhoto": "/5/10.png"
   },
   {
     "contestant": "Erin Collins",
@@ -801,7 +872,8 @@
     "modality": "Cardinal",
     "placements": 9,
     "appearances": 1,
-    "id": 509
+    "id": 509,
+    "pathToPhoto": "/5/9.png"
   },
   {
     "contestant": "Ken Stafford",
@@ -812,7 +884,8 @@
     "modality": "Mutable",
     "placements": 8,
     "appearances": 1,
-    "id": 508
+    "id": 508,
+    "pathToPhoto": "/5/8.png"
   },
   {
     "contestant": "Penny Ramsey",
@@ -823,7 +896,8 @@
     "modality": "Fixed",
     "placements": 7,
     "appearances": 1,
-    "id": 507
+    "id": 507,
+    "pathToPhoto": "/5/7.png"
   },
   {
     "contestant": "Jake Billingsley",
@@ -834,7 +908,8 @@
     "modality": "Fixed",
     "placements": 6,
     "appearances": 1,
-    "id": 506
+    "id": 506,
+    "pathToPhoto": "/5/6.png"
   },
   {
     "contestant": "Ted Rogers, Jr.",
@@ -845,7 +920,8 @@
     "modality": "Cardinal",
     "placements": 5,
     "appearances": 1,
-    "id": 505
+    "id": 505,
+    "pathToPhoto": "/5/5.png"
   },
   {
     "contestant": "Helen Glover",
@@ -856,7 +932,8 @@
     "modality": "Fixed",
     "placements": 4,
     "appearances": 1,
-    "id": 504
+    "id": 504,
+    "pathToPhoto": "/5/4.png"
   },
   {
     "contestant": "Jan Gentry",
@@ -867,7 +944,8 @@
     "modality": "Fixed",
     "placements": 3,
     "appearances": 1,
-    "id": 503
+    "id": 503,
+    "pathToPhoto": "/5/3.png"
   },
   {
     "contestant": "Clay Jordan",
@@ -879,7 +957,8 @@
     "placements": 2,
     "appearances": 1,
     "runnerUp": true,
-    "id": 502
+    "id": 502,
+    "pathToPhoto": "/5/2.png"
   },
   {
     "contestant": "Brian Heidik",
@@ -891,7 +970,8 @@
     "placements": 1,
     "appearances": 1,
     "winner": true,
-    "id": 501
+    "id": 501,
+    "pathToPhoto": "/5/1.png"
   },
   {
     "contestant": "Ryan Aiken",
@@ -902,7 +982,8 @@
     "modality": "Fixed",
     "placements": 16,
     "appearances": 1,
-    "id": 616
+    "id": 616,
+    "pathToPhoto": "/6/16.png"
   },
   {
     "contestant": "Janet Koth",
@@ -913,7 +994,8 @@
     "modality": "Fixed",
     "placements": 15,
     "appearances": 1,
-    "id": 615
+    "id": 615,
+    "pathToPhoto": "/6/15.png"
   },
   {
     "contestant": "Daniel Lue",
@@ -924,7 +1006,8 @@
     "modality": "Mutable",
     "placements": 14,
     "appearances": 1,
-    "id": 614
+    "id": 614,
+    "pathToPhoto": "/6/14.png"
   },
   {
     "contestant": "JoAnna Ward",
@@ -935,7 +1018,8 @@
     "modality": "Fixed",
     "placements": 13,
     "appearances": 1,
-    "id": 613
+    "id": 613,
+    "pathToPhoto": "/6/13.png"
   },
   {
     "contestant": "Jeanne Hebert",
@@ -946,7 +1030,8 @@
     "modality": "Cardinal",
     "placements": 12,
     "appearances": 1,
-    "id": 612
+    "id": 612,
+    "pathToPhoto": "/6/12.png"
   },
   {
     "contestant": "Shawna Mitchell",
@@ -957,7 +1042,8 @@
     "modality": "Fixed",
     "placements": 11,
     "appearances": 1,
-    "id": 611
+    "id": 611,
+    "pathToPhoto": "/6/11.png"
   },
   {
     "contestant": "Roger Sexton",
@@ -968,7 +1054,8 @@
     "modality": "Fixed",
     "placements": 10,
     "appearances": 1,
-    "id": 610
+    "id": 610,
+    "pathToPhoto": "/6/10.png"
   },
   {
     "contestant": "Dave Johnson",
@@ -979,7 +1066,8 @@
     "modality": "Cardinal",
     "placements": 9,
     "appearances": 1,
-    "id": 609
+    "id": 609,
+    "pathToPhoto": "/6/9.png"
   },
   {
     "contestant": "Deena Bennett",
@@ -990,7 +1078,8 @@
     "modality": "Fixed",
     "placements": 8,
     "appearances": 1,
-    "id": 608
+    "id": 608,
+    "pathToPhoto": "/6/8.png"
   },
   {
     "contestant": "Alex Bell",
@@ -1001,7 +1090,8 @@
     "modality": "Fixed",
     "placements": 7,
     "appearances": 1,
-    "id": 607
+    "id": 607,
+    "pathToPhoto": "/6/7.png"
   },
   {
     "contestant": "Christy Smith",
@@ -1012,7 +1102,8 @@
     "modality": "Mutable",
     "placements": 6,
     "appearances": 1,
-    "id": 606
+    "id": 606,
+    "pathToPhoto": "/6/6.png"
   },
   {
     "contestant": "Heidi Strobel",
@@ -1023,7 +1114,8 @@
     "modality": "Fixed",
     "placements": 5,
     "appearances": 1,
-    "id": 605
+    "id": 605,
+    "pathToPhoto": "/6/5.png"
   },
   {
     "contestant": "Butch Lockley",
@@ -1034,7 +1126,8 @@
     "modality": "Mutable",
     "placements": 4,
     "appearances": 1,
-    "id": 604
+    "id": 604,
+    "pathToPhoto": "/6/4.png"
   },
   {
     "contestant": "Rob Cesternino",
@@ -1045,7 +1138,8 @@
     "modality": "Cardinal",
     "placements": [3, 15],
     "appearances": 2,
-    "id": 603
+    "id": 603,
+    "pathToPhoto": "/6/3.png"
   },
   {
     "contestant": "Matthew von Ertfelda",
@@ -1057,7 +1151,8 @@
     "placements": 2,
     "appearances": 1,
     "runnerUp": true,
-    "id": 602
+    "id": 602,
+    "pathToPhoto": "/6/2.png"
   },
   {
     "contestant": "Jenna Morasca",
@@ -1069,7 +1164,8 @@
     "placements": [1, 16],
     "appearances": 2,
     "winner": true,
-    "id": 601
+    "id": 601,
+    "pathToPhoto": "/6/1.png"
   },
   {
     "contestant": "Nicole Delma",
@@ -1080,7 +1176,8 @@
     "modality": "Mutable",
     "placements": 16,
     "appearances": 1,
-    "id": 716
+    "id": 716,
+    "pathToPhoto": "/7/16.png"
   },
   {
     "contestant": "Ryan Shoulders",
@@ -1091,7 +1188,8 @@
     "modality": "Cardinal",
     "placements": 15,
     "appearances": 1,
-    "id": 715
+    "id": 715,
+    "pathToPhoto": "/7/15.png"
   },
   {
     "contestant": "Michelle Tesauro",
@@ -1102,7 +1200,8 @@
     "modality": "Cardinal",
     "placements": 14,
     "appearances": 1,
-    "id": 714
+    "id": 714,
+    "pathToPhoto": "/7/14.png"
   },
   {
     "contestant": "Trish Dunn",
@@ -1113,7 +1212,8 @@
     "modality": "Fixed",
     "placements": 13,
     "appearances": 1,
-    "id": 713
+    "id": 713,
+    "pathToPhoto": "/7/13.png"
   },
   {
     "contestant": "Shawn Cohen",
@@ -1124,7 +1224,8 @@
     "modality": "Mutable",
     "placements": 12,
     "appearances": 1,
-    "id": 712
+    "id": 712,
+    "pathToPhoto": "/7/12.png"
   },
   {
     "contestant": "Osten Taylor",
@@ -1135,7 +1236,8 @@
     "modality": "Mutable",
     "placements": 11,
     "appearances": 1,
-    "id": 711
+    "id": 711,
+    "pathToPhoto": "/7/11.png"
   },
   {
     "contestant": "Andrew Savage",
@@ -1146,7 +1248,8 @@
     "modality": "Fixed",
     "placements": [10, 12],
     "appearances": 2,
-    "id": 710
+    "id": 710,
+    "pathToPhoto": "/7/10.png"
   },
   {
     "contestant": "Ryan 'Ryno' Opray",
@@ -1157,7 +1260,8 @@
     "modality": "Fixed",
     "placements": 9,
     "appearances": 1,
-    "id": 709
+    "id": 709,
+    "pathToPhoto": "/7/9.png"
   },
   {
     "contestant": "Rupert Boneham",
@@ -1168,7 +1272,8 @@
     "modality": "Fixed",
     "placements": [8, 4, 6, 20],
     "appearances": 4,
-    "id": 708
+    "id": 708,
+    "pathToPhoto": "/7/8.png"
   },
   {
     "contestant": "Tijuana Bradley",
@@ -1179,7 +1284,8 @@
     "modality": "Fixed",
     "placements": 7,
     "appearances": 1,
-    "id": 707
+    "id": 707,
+    "pathToPhoto": "/7/7.png"
   },
   {
     "contestant": "Christa Hastie",
@@ -1190,7 +1296,8 @@
     "modality": "Fixed",
     "placements": 6,
     "appearances": 1,
-    "id": 706
+    "id": 706,
+    "pathToPhoto": "/7/6.png"
   },
   {
     "contestant": "Burton Roberts",
@@ -1201,7 +1308,8 @@
     "modality": "Cardinal",
     "placements": 5,
     "appearances": 1,
-    "id": 705
+    "id": 705,
+    "pathToPhoto": "/7/5.png"
   },
   {
     "contestant": "Darrah Johnson",
@@ -1212,7 +1320,8 @@
     "modality": "Fixed",
     "placements": 4,
     "appearances": 1,
-    "id": 704
+    "id": 704,
+    "pathToPhoto": "/7/4.png"
   },
   {
     "contestant": "Jon 'Jonny Fairplay' Dalton",
@@ -1223,7 +1332,8 @@
     "modality": "Mutable",
     "placements": [3, 20],
     "appearances": 2,
-    "id": 703
+    "id": 703,
+    "pathToPhoto": "/7/3.png"
   },
   {
     "contestant": "Lillian 'Lill' Morris",
@@ -1235,7 +1345,8 @@
     "placements": 2,
     "appearances": 1,
     "runnerUp": true,
-    "id": 702
+    "id": 702,
+    "pathToPhoto": "/7/2.png"
   },
   {
     "contestant": "Sandra Diaz-Twine",
@@ -1247,6 +1358,7 @@
     "placements": [1, 1, 15, 16],
     "appearances": 4,
     "winner": true,
-    "id": 701
+    "id": 701,
+    "pathToPhoto": "/7/1.png"
   }
 ]

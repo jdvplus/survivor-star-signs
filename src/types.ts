@@ -2,6 +2,8 @@ import { Request, Response, NextFunction } from 'express';
 
 type Survivors = {
   id?: number; // dynamically added after
+  pathToPhoto?: string; // dynamically added after
+
   contestant: string;
   seasons: number | Array<number>;
   birthday: Date;
@@ -44,6 +46,7 @@ enum Modality {
 
 type ContestantController = {
   getContestants: (req: Request, res: Response, next: NextFunction) => void;
+  getBySign: (req: Request, res: Response, next: NextFunction) => void;
 };
 
 export {
