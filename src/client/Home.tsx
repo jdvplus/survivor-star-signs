@@ -70,12 +70,12 @@ const Home = () => {
     <div className='container'>
       <div className='container p-4'>
         <Select value={selectedSign} onValueChange={setSelectedSign}>
-          <SelectTrigger className='h-[4em] w-[20em] m-auto'>
+          <SelectTrigger className='text-2xl h-[3rem] w-[25rem] m-auto'>
             <SelectValue className='m-auto' placeholder='select a sign' />
           </SelectTrigger>
           <SelectContent>
             {zodiacSigns.map((sign) => (
-              <SelectItem key={sign} value={sign}>
+              <SelectItem className='text-2xl' key={sign} value={sign}>
                 {sign.toLowerCase()}
               </SelectItem>
             ))}
@@ -94,7 +94,7 @@ const Home = () => {
               {survivorData.map((survivor) => (
                 <CarouselItem key={survivor.contestant} className='basis-1/2'>
                   <img
-                    className='h-[30em] m-auto rounded-xl'
+                    className='h-[30rem] m-auto rounded-xl'
                     src={survivor.pathToPhoto}
                     alt={survivor.contestant}
                   />

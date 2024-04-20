@@ -8,18 +8,18 @@ import Home from '@/client/Home';
 const App = () => {
   return (
     <>
-      <h1 className='text-6xl font-bold'>survivor star signs</h1>
+      <h1 className='text-6xl font-bold tracking-wide'>survivor star signs</h1>
 
       <div className='container p-4'>
         <img
-          className='h-[20em] m-auto rounded-xl'
+          className='h-[20rem] m-auto rounded-xl'
           src='cover-photo.png'
           alt='dave & alex'
         />
       </div>
 
       <div className='container p-4'>
-        <Button>enter</Button>
+        <Button className='text-xl'>enter</Button>
       </div>
 
       <ModeToggle />
