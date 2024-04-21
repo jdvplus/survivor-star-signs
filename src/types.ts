@@ -7,6 +7,7 @@ type Survivors = {
   contestant: string;
   seasons: number | Array<number>;
   birthday: Date;
+  gender: Gender;
   zodiacSign: ZodiacSign;
   element: Element;
   modality: Modality;
@@ -15,6 +16,8 @@ type Survivors = {
   runnerUp?: true;
   winner?: true;
 };
+
+type Gender = 'f' | 'm' | 'nb';
 
 enum ZodiacSign {
   Aries = 'Aries',
@@ -45,8 +48,10 @@ enum Modality {
 }
 
 type ContestantController = {
-  getContestants: (req: Request, res: Response, next: NextFunction) => void;
+  getAll: (req: Request, res: Response, next: NextFunction) => void;
+  getRandom: (req: Request, res: Response, next: NextFunction) => void;
   getBySign: (req: Request, res: Response, next: NextFunction) => void;
+  getByGender: (req: Request, res: Response, next: NextFunction) => void;
 };
 
 export {
