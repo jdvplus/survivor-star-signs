@@ -1,4 +1,5 @@
-import { Survivors, ZodiacSign, Element, Modality } from '../../types.ts';
+import writeDb from '@/server/db/writeDb.ts';
+import { Survivors, ZodiacSign, Element, Modality } from '@/types.ts';
 
 const survivors: Array<Survivors> = [
   // Borneo
@@ -1262,3 +1263,5 @@ const survivors: Array<Survivors> = [
 ];
 
 export default survivors;
+
+writeDb(survivors);

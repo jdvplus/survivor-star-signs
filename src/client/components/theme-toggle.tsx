@@ -1,9 +1,9 @@
 import { Sun, Moon } from 'lucide-react';
 
-import { useTheme } from './theme-provider';
-import { Button } from './ui/button';
+import { useTheme } from '@/client/components/theme-provider';
+import { Button } from '@/client/components/ui/button';
 
-export function ModeToggle() {
+const ThemeToggle = () => {
   const { setTheme } = useTheme();
 
   const toggleTheme = () => {
@@ -18,4 +18,6 @@ export function ModeToggle() {
       <span className='sr-only'>toggle theme</span>
     </Button>
   );
-}
+};
+
+export default ThemeToggle;

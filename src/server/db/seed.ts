@@ -1,5 +1,5 @@
 import survivors from './data.ts';
-import { writeDb } from './dbFunctions.ts';
+import { writeDb } from './writeDb.ts';
 
 for (const survivor of survivors) {
   // generate unique contestant IDs

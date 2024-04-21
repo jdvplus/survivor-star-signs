@@ -4,9 +4,15 @@ import fs from 'fs';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-import { ContestantController, Survivors, Gender } from '@/types.ts';
+import { Survivors, Gender, GenderSelectOptions, ZodiacSign } from '@/types.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
+type ContestantController = {
+  getAll: (req: Request, res: Response, next: NextFunction) => void;
+  getRandom: (req: Request, res: Response, next: NextFunction) => void;
+  getByCategory: (req: Request, res: Response, next: NextFunction) => void;
+};
 
 const contestantController: ContestantController = {
   // retrieve all contestants from database
@@ -53,7 +59,11 @@ const contestantController: ContestantController = {
 
   // retrieve contestants by category (season, zodiac sign, gender)
   getByCategory: (req: Request, res: Response, next: NextFunction) => {
-    const { signSelection, genderSelection } = req.body;
+    const {
+      signSelection,
+      genderSelection,
+    }: { signSelection: ZodiacSign; genderSelection: GenderSelectOptions } =
+      req.body;
 
     let convertedGenderSelection: Gender;
     if (genderSelection === 'men') convertedGenderSelection = 'm';

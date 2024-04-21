@@ -1,5 +1,3 @@
-import { Request, Response, NextFunction } from 'express';
-
 type Survivors = {
   id?: number; // dynamically added after
   pathToPhoto?: string; // dynamically added after
@@ -18,6 +16,7 @@ type Survivors = {
 };
 
 type Gender = 'f' | 'm' | 'nb';
+type GenderSelectOptions = 'men' | 'women';
 
 enum ZodiacSign {
   Aries = 'Aries',
@@ -47,18 +46,11 @@ enum Modality {
   Mutable = 'Mutable',
 }
 
-type ContestantController = {
-  getAll: (req: Request, res: Response, next: NextFunction) => void;
-  getRandom: (req: Request, res: Response, next: NextFunction) => void;
-  getByCategory: (req: Request, res: Response, next: NextFunction) => void;
-  // getByGender: (req: Request, res: Response, next: NextFunction) => void;
-};
-
 export {
   type Survivors,
   type Gender,
+  type GenderSelectOptions,
   ZodiacSign,
   Element,
   Modality,
-  type ContestantController,
 };

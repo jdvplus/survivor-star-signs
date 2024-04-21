@@ -1,11 +1,8 @@
 import fs from 'fs';
 
-import { Survivors } from '../../types.ts';
+import { Survivors } from '@/types.ts';
 
-export const writeDb = (
-  data: Array<Survivors>,
-  db: string = 'src/db/db.json'
-) => {
+const writeDb = (data: Array<Survivors>, db: string = 'src/db/db.json') => {
   if (!data) return 'invalid input';
 
   try {
@@ -14,3 +11,5 @@ export const writeDb = (
     console.error(err);
   }
 };
+
+export default writeDb;

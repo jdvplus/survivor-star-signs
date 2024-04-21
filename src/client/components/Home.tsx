@@ -8,15 +8,15 @@ import {
   CarouselPrevious,
 } from '@/client/components/ui/carousel';
 
-import { Survivors, ZodiacSign } from '@/types';
+import { GenderSelectOptions, Survivors, ZodiacSign } from '@/types';
 
 import { fetchBy } from '@/constants';
-import SelectBy from './SelectBy';
+import SelectBy from '@/client/components/SelectBy';
 
 const Home = () => {
   const [queryData, setQueryData] = useState<Array<Survivors>>([]);
-  const [signSelection, setSignSelection] = useState('');
-  const [genderSelection, setGenderSelection] = useState('');
+  const [signSelection, setSignSelection] = useState<string>('');
+  const [genderSelection, setGenderSelection] = useState<string>('');
 
   const zodiacSigns: Array<ZodiacSign> = [
     ZodiacSign.Aries,
@@ -33,14 +33,14 @@ const Home = () => {
     ZodiacSign.Pisces,
   ];
 
-  const genderOptions: Array<string> = ['men', 'women'];
+  const genderSelectOptions: Array<GenderSelectOptions> = ['men', 'women'];
 
   // display survivors by zodiac sign
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchBy(
         signSelection as ZodiacSign,
-        genderSelection as 'men' | 'women'
+        genderSelection as GenderSelectOptions
       );
       setQueryData(data);
     };
@@ -63,9 +63,9 @@ const Home = () => {
       {/* dropdown select: choose gender */}
       <SelectBy
         category='gender'
-        categoryValue={genderSelection as 'men' | 'women'}
+        categoryValue={genderSelection as GenderSelectOptions}
         setter={setGenderSelection}
-        categoryOptions={genderOptions}
+        categoryOptions={genderSelectOptions}
       />
 
       {/* carousel */}
@@ -83,13 +83,14 @@ const Home = () => {
           <Carousel
             opts={{
               loop: true,
+              align: 'center',
             }}
           >
             <CarouselContent>
               {queryData.map((survivor) => (
                 <CarouselItem key={survivor.contestant} className='basis-1/2'>
                   <img
-                    className='h-[30rem] m-auto rounded-xl'
+                    className='aspect-auto max-w-[20rem] m-auto rounded-xl'
                     src={survivor.pathToPhoto}
                     alt={survivor.contestant}
                   />

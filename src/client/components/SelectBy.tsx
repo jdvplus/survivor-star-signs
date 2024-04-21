@@ -8,7 +8,7 @@ import {
   SelectValue,
 } from '@/client/components/ui/select';
 
-import { ZodiacSign } from '@/types';
+import { ZodiacSign, GenderSelectOptions } from '@/types';
 
 const SelectBy = ({
   category,
@@ -17,9 +17,9 @@ const SelectBy = ({
   categoryOptions,
 }: {
   category: string;
-  categoryValue: ZodiacSign | 'men' | 'women'; //TODO: update this
-  setter: React.Dispatch<React.SetStateAction<string>>; //TODO: update this
-  categoryOptions: Array<any>; // eslint-disable-line
+  categoryValue: ZodiacSign | 'men' | 'women'; //TODO: update this w/ season
+  setter: React.Dispatch<React.SetStateAction<string>>; //TODO: update this w/ season
+  categoryOptions: Array<ZodiacSign | GenderSelectOptions>;
 }) => {
   const [placeholder, setPlaceholder] = useState<string>('');
 

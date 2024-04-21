@@ -18,7 +18,7 @@ const AllSurvivors = () => {
 
   useEffect(() => console.log('all survivors', allSurvivors), [allSurvivors]);
 
-  // create grid to display all survivors
+  //TODO: create grid to display all survivors
 
   return;
 };

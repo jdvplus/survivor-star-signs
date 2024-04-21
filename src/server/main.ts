@@ -3,8 +3,8 @@ import express, { ErrorRequestHandler } from 'express';
 
 import path from 'path';
 
-import __dirname from '../utils/dirname.ts';
-import apiRouter from './routers/apiRouter.ts';
+import __dirname from '@/utils/dirname.ts';
+import apiRouter from '@/server/routers/apiRouter.ts';
 
 const app = express();
 const PORT = 6969;

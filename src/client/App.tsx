@@ -1,13 +1,11 @@
-import '@/client/App.css';
-
 import { Button } from '@/client/components/ui/button';
-import { ModeToggle } from '@/client/components/mode-toggle';
+import ThemeToggle from '@/client/components/theme-toggle';
 
-import Home from '@/client/Home';
+import Home from '@/client/components/Home';
 
 const App = () => {
   return (
-    <>
+    <div className='my-12'>
       <h1 className='text-6xl font-bold tracking-wide'>survivor star signs</h1>
 
       <div className='container p-4'>
@@ -22,10 +20,10 @@ const App = () => {
         <Button className='text-xl'>enter</Button>
       </div>
 
-      <ModeToggle />
+      <ThemeToggle />
 
       <Home />
-    </>
+    </div>
   );
 };
 
