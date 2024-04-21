@@ -50,12 +50,13 @@ enum Modality {
 type ContestantController = {
   getAll: (req: Request, res: Response, next: NextFunction) => void;
   getRandom: (req: Request, res: Response, next: NextFunction) => void;
-  getBySign: (req: Request, res: Response, next: NextFunction) => void;
-  getByGender: (req: Request, res: Response, next: NextFunction) => void;
+  getByCategory: (req: Request, res: Response, next: NextFunction) => void;
+  // getByGender: (req: Request, res: Response, next: NextFunction) => void;
 };
 
 export {
   type Survivors,
+  type Gender,
   ZodiacSign,
   Element,
   Modality,

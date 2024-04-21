@@ -1,13 +1,6 @@
 import { useState, useEffect } from 'react';
 
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/client/components/ui/select';
-import {
   Carousel,
   CarouselContent,
   CarouselItem,
@@ -15,60 +8,75 @@ import {
   CarouselPrevious,
 } from '@/client/components/ui/carousel';
 
-import { Survivors } from '@/types';
+import { Survivors, ZodiacSign } from '@/types';
 
-import { zodiacSigns } from '@/constants';
+import { fetchBy } from '@/constants';
+import SelectBy from './SelectBy';
 
 const Home = () => {
   const [queryData, setQueryData] = useState<Array<Survivors>>([]);
-  const [selectedSign, setSelectedSign] = useState('');
+  const [signSelection, setSignSelection] = useState('');
+  const [genderSelection, setGenderSelection] = useState('');
 
+  const zodiacSigns: Array<ZodiacSign> = [
+    ZodiacSign.Aries,
+    ZodiacSign.Taurus,
+    ZodiacSign.Gemini,
+    ZodiacSign.Cancer,
+    ZodiacSign.Leo,
+    ZodiacSign.Virgo,
+    ZodiacSign.Libra,
+    ZodiacSign.Scorpio,
+    ZodiacSign.Sagittarius,
+    ZodiacSign.Capricorn,
+    ZodiacSign.Aquarius,
+    ZodiacSign.Pisces,
+  ];
+
+  const genderOptions: Array<string> = ['men', 'women'];
+
+  // display survivors by zodiac sign
   useEffect(() => {
-    const fetchBySign = async () => {
-      const res = await fetch('/api/survivors', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ selectedSign }),
-      });
-      const data = await res.json();
-
+    const fetchData = async () => {
+      const data = await fetchBy(
+        signSelection as ZodiacSign,
+        genderSelection as 'men' | 'women'
+      );
       setQueryData(data);
     };
 
-    fetchBySign();
-  }, [selectedSign]);
+    fetchData();
+  }, [signSelection, genderSelection]);
 
   useEffect(() => console.log('query data', queryData), [queryData]);
 
-  //TODO: add gender option
-
   return (
     <div className='container'>
-      {/* dropdown select */}
-      <div className='container p-4'>
-        <Select value={selectedSign} onValueChange={setSelectedSign}>
-          <SelectTrigger className='text-2xl h-[3rem] w-[25rem] m-auto'>
-            <SelectValue className='m-auto' placeholder='select a sign' />
-          </SelectTrigger>
-          <SelectContent>
-            {zodiacSigns.map((sign) => (
-              <SelectItem className='text-2xl' key={sign} value={sign}>
-                {sign.toLowerCase()}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-      </div>
+      {/* dropdown select: choose zodiac sign */}
+      <SelectBy
+        category='zodiacSign'
+        categoryValue={signSelection as ZodiacSign}
+        setter={setSignSelection}
+        categoryOptions={zodiacSigns}
+      />
+
+      {/* dropdown select: choose gender */}
+      <SelectBy
+        category='gender'
+        categoryValue={genderSelection as 'men' | 'women'}
+        setter={setGenderSelection}
+        categoryOptions={genderOptions}
+      />
 
       {/* carousel */}
       {queryData.length ? (
         <div className='container p-4'>
-          {selectedSign ? (
+          {signSelection ? (
             <p className='text-3xl mb-4'>
               {queryData.length}{' '}
-              {selectedSign[selectedSign.length - 1] === 's'
-                ? selectedSign
-                : `${selectedSign}s`}{' '}
+              {signSelection[signSelection.length - 1] === 's'
+                ? signSelection
+                : `${signSelection}s`}{' '}
               have played Survivor.
             </p>
           ) : null}

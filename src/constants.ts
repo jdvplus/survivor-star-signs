@@ -1,16 +1,16 @@
-import { ZodiacSign } from '@/types.ts';
+import { Survivors, ZodiacSign } from '@/types.ts';
 
-export const zodiacSigns: Array<ZodiacSign> = [
-  ZodiacSign.Aries,
-  ZodiacSign.Taurus,
-  ZodiacSign.Gemini,
-  ZodiacSign.Cancer,
-  ZodiacSign.Leo,
-  ZodiacSign.Virgo,
-  ZodiacSign.Libra,
-  ZodiacSign.Scorpio,
-  ZodiacSign.Sagittarius,
-  ZodiacSign.Capricorn,
-  ZodiacSign.Aquarius,
-  ZodiacSign.Pisces,
-];
+//TODO: update with additional keys in req.body (season)
+export const fetchBy = async (
+  signSelection: ZodiacSign,
+  genderSelection: 'men' | 'women'
+): Promise<Array<Survivors>> => {
+  const res = await fetch('/api/survivors', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ signSelection, genderSelection }),
+  });
+  const data = await res.json();
+
+  return data;
+};

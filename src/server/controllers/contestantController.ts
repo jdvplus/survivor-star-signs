@@ -4,13 +4,9 @@ import fs from 'fs';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-import { ContestantController, Survivors } from '../../types.ts';
+import { ContestantController, Survivors, Gender } from '@/types.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
-// const getByCharacteristic = (property, query) => {
-
-// }
 
 const contestantController: ContestantController = {
   // retrieve all contestants from database
@@ -55,9 +51,13 @@ const contestantController: ContestantController = {
     );
   },
 
-  // retrieve contestants by sign
-  getBySign: (req: Request, res: Response, next: NextFunction) => {
-    const { selectedSign } = req.body;
+  // retrieve contestants by category (season, zodiac sign, gender)
+  getByCategory: (req: Request, res: Response, next: NextFunction) => {
+    const { signSelection, genderSelection } = req.body;
+
+    let convertedGenderSelection: Gender;
+    if (genderSelection === 'men') convertedGenderSelection = 'm';
+    if (genderSelection === 'women') convertedGenderSelection = 'f';
 
     fs.readFile(
       path.join(__dirname, '../db/db.json'),
@@ -66,33 +66,20 @@ const contestantController: ContestantController = {
         if (err) return next(err);
 
         let parsedData: Array<Survivors> = JSON.parse(data);
-        parsedData = parsedData.filter(
-          (survivor: Survivors) => survivor.zodiacSign === selectedSign
-        );
 
-        res.locals.contestantsBySign = parsedData;
+        parsedData = parsedData.filter((survivor: Survivors) => {
+          if (signSelection && !genderSelection)
+            return survivor.zodiacSign === signSelection;
+          if (!signSelection && genderSelection)
+            return survivor.gender === convertedGenderSelection;
 
-        next();
-      }
-    );
-  },
+          return (
+            survivor.zodiacSign === signSelection &&
+            survivor.gender === convertedGenderSelection
+          );
+        });
 
-  // retrieve contestants by gender
-  getByGender: (req: Request, res: Response, next: NextFunction) => {
-    const { selectedGender } = req.body;
-
-    fs.readFile(
-      path.join(__dirname, '../db/db.json'),
-      'utf-8',
-      (err, data: string) => {
-        if (err) return next(err);
-
-        let parsedData: Array<Survivors> = JSON.parse(data);
-        parsedData = parsedData.filter(
-          (survivor: Survivors) => survivor.gender === selectedGender
-        );
-
-        res.locals.contestantsByGender = parsedData;
+        res.locals.contestantsByCategory = parsedData;
 
         next();
       }
