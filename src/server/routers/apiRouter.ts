@@ -1,6 +1,6 @@
 import express from 'express';
 
-import contestantController from '../controllers/contestantController.ts';
+import contestantController from '@/server/controllers/contestantController.ts';
 
 const { getAll, getRandom, getByCategory } = contestantController;
 

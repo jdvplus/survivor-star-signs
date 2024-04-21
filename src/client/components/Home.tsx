@@ -10,8 +10,8 @@ import {
 
 import { GenderSelectOptions, Survivors, ZodiacSign } from '@/types';
 
-import { fetchBy } from '@/constants';
 import SelectBy from '@/client/components/SelectBy';
+import { fetchBy } from '@/helpers';
 
 const Home = () => {
   const [queryData, setQueryData] = useState<Array<Survivors>>([]);
@@ -42,6 +42,7 @@ const Home = () => {
         signSelection as ZodiacSign,
         genderSelection as GenderSelectOptions
       );
+      
       setQueryData(data);
     };
 

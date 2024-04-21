@@ -6,3 +6,6 @@ built with typescript, react, vite, `vite-express`, node, express, `shadcn/ui` &
 
 - [ ] accordion with questions
 - [ ] client-side routing
+- [ ] add jsdoc syntax
+- [ ] add testing
+- [ ] containerize ? or deploy on vercel

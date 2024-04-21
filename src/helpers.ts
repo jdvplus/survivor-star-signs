@@ -1,7 +1,7 @@
 import { Survivors, ZodiacSign } from '@/types.ts';
 
 //TODO: update with additional keys in req.body (season)
-export const fetchBy = async (
+const fetchBy = async (
   signSelection: ZodiacSign,
   genderSelection: 'men' | 'women'
 ): Promise<Array<Survivors>> => {
@@ -14,3 +14,5 @@ export const fetchBy = async (
 
   return data;
 };
+
+export { fetchBy };
