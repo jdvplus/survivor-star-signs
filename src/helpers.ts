@@ -1,6 +1,6 @@
 import { Survivors, ZodiacSign } from '@/types.ts';
 
-//TODO: update with additional keys in req.body (season)
+//TODO: deprecate
 const fetchBy = async (
   signSelection: ZodiacSign,
   genderSelection: 'men' | 'women'
