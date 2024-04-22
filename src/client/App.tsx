@@ -1,8 +1,8 @@
 import { Button } from '@/client/components/ui/button';
-import ThemeToggle from '@/client/components/theme-toggle';
+import ThemeToggle from '@/client/components/ui/theme-toggle';
 
 import SurvivorCarousel from '@/client/components/SurvivorCarousel';
-import Home from '@/client/components/Home';
+import QueryByCategory from '@/client/components/QueryByCategory';
 import AllSurvivors from '@/client/components/AllSurvivors';
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
 
       <ThemeToggle />
 
-      <Home />
+      <QueryByCategory />
     </div>
   );
 };

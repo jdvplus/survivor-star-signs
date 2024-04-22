@@ -2,10 +2,10 @@ import { useState } from 'react';
 
 import { ZodiacSign, GenderSelectOptions } from '@/types';
 
-import SelectBy from '@/client/components/SelectBy';
+import SelectBy from '@/client/components/ui/select-by';
 import SurvivorCarousel from '@/client/components/SurvivorCarousel';
 
-const Home = () => {
+const QueryByCategory = () => {
   const [signSelection, setSignSelection] = useState<string>('');
   const [genderSelection, setGenderSelection] = useState<string>('');
 
@@ -68,4 +68,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default QueryByCategory;

@@ -25,10 +25,6 @@ const AllSurvivors = () => {
     fetchData();
   }, []);
 
-  useEffect(() => console.log('all survivors', allSurvivors), [allSurvivors]);
-
-  //TODO: create grid to display all survivors
-
   return (
     <div className='grid grid-cols-8 gap-8'>
       {allSurvivors.map((survivor) => {
