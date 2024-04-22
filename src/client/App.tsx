@@ -1,13 +1,18 @@
 import { Button } from '@/client/components/ui/button';
-import ThemeToggle from '@/client/components/theme-toggle';
+import ThemeToggle from '@/client/components/ui/theme-toggle';
 
 import SurvivorCarousel from '@/client/components/SurvivorCarousel';
-import Home from '@/client/components/Home';
+import QueryByCategory from '@/client/components/QueryByCategory';
+import AllSurvivors from '@/client/components/AllSurvivors';
 
 const App = () => {
   return (
     <div className='my-12'>
       <h1 className='text-6xl font-bold tracking-wide'>survivor star signs</h1>
+
+      <div className='container my-4 p-12'>
+        <AllSurvivors />
+      </div>
 
       <div className='container p-4'>
         <img
@@ -25,7 +30,7 @@ const App = () => {
 
       <ThemeToggle />
 
-      <Home />
+      <QueryByCategory />
     </div>
   );
 };

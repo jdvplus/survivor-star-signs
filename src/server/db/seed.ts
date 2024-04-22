@@ -1,5 +1,5 @@
-import survivors from './data.ts';
-import { writeDb } from './writeDb.ts';
+import { survivors } from '@/server/db/data.ts';
+import writeDb from '@/server/db/writeDb.ts';
 
 for (const survivor of survivors) {
   // generate unique contestant IDs
@@ -15,8 +15,8 @@ for (const survivor of survivors) {
   // generate path to photo
   survivor.pathToPhoto =
     Array.isArray(survivor.seasons) && Array.isArray(survivor.placements)
-      ? `/${survivor.seasons[0]}/${survivor.placements[0]}.png`
-      : `/${survivor.seasons}/${survivor.placements}.png`;
+      ? `/${survivor.seasons[0]}/${survivor.placements[0]}`
+      : `/${survivor.seasons}/${survivor.placements}`;
 }
 
 writeDb(survivors);
