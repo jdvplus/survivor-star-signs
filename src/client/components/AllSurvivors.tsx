@@ -1,5 +1,11 @@
 import { useState, useEffect } from 'react';
 
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from '@/client/components/ui/avatar';
+
 import { Survivors } from '@/types';
 
 const AllSurvivors = () => {
@@ -20,7 +26,19 @@ const AllSurvivors = () => {
 
   //TODO: create grid to display all survivors
 
-  return;
+  return (
+    <div className='grid grid-cols-8 gap-8'>
+      {allSurvivors.map((survivor) => {
+        const { contestant, pathToPhoto }: Survivors = survivor;
+        return (
+          <Avatar key={contestant}>
+            <AvatarImage src={`${pathToPhoto}`} alt={contestant} />
+            <AvatarFallback>{contestant[0]}</AvatarFallback>
+          </Avatar>
+        );
+      })}
+    </div>
+  );
 };
 
 export default AllSurvivors;
