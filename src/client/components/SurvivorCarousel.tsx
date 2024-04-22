@@ -67,7 +67,7 @@ const SurvivorCarousel = ({
             <CarouselItem key={survivor.contestant} className='basis-1/2'>
               <img
                 className='aspect-auto h-[20rem] m-auto rounded-xl'
-                src={survivor.pathToPhoto}
+                src={`${survivor.pathToPhoto}.png`}
                 alt={survivor.contestant}
               />
               <p className='text-2xl'>{survivor.contestant.toLowerCase()}</p>

@@ -1,18 +1,15 @@
-import { Survivors, ZodiacSign } from '@/types.ts';
+import { Survivors } from '@/types.ts';
 
-//TODO: deprecate
-const fetchBy = async (
-  signSelection: ZodiacSign,
-  genderSelection: 'men' | 'women'
-): Promise<Array<Survivors>> => {
-  const res = await fetch('/api/survivors', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ signSelection, genderSelection }),
-  });
-  const data = await res.json();
+// source: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+const shuffleArray = (array: Array<Survivors>): void => {
+  let i = array.length;
 
-  return data;
+  while (i) {
+    const random = Math.floor(Math.random() * i);
+    i--;
+
+    [array[i], array[random]] = [array[random], array[i]];
+  }
 };
 
-export { fetchBy };
+export { shuffleArray };

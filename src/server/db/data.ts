@@ -1,7 +1,7 @@
 import writeDb from '@/server/db/writeDb.ts';
 import { Survivors, ZodiacSign, Element, Modality } from '@/types.ts';
 
-const survivors: Array<Survivors> = [
+export const survivors: Array<Survivors> = [
   // Borneo
   {
     contestant: 'Sonja Christopher',

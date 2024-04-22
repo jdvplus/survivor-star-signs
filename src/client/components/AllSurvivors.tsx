@@ -8,6 +8,8 @@ import {
 
 import { Survivors } from '@/types';
 
+import { shuffleArray } from '@/helpers';
+
 const AllSurvivors = () => {
   const [allSurvivors, setAllSurvivors] = useState<Array<Survivors>>([]);
 
@@ -16,6 +18,7 @@ const AllSurvivors = () => {
       const res = await fetch('/api/survivors');
       const data = await res.json();
 
+      shuffleArray(data);
       setAllSurvivors(data);
     };
 
@@ -32,7 +35,7 @@ const AllSurvivors = () => {
         const { contestant, pathToPhoto }: Survivors = survivor;
         return (
           <Avatar key={contestant}>
-            <AvatarImage src={`${pathToPhoto}`} alt={contestant} />
+            <AvatarImage src={`${pathToPhoto}-avatar.jpg`} alt={contestant} />
             <AvatarFallback>{contestant[0]}</AvatarFallback>
           </Avatar>
         );
