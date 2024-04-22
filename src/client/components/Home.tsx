@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 import { ZodiacSign, GenderSelectOptions } from '@/types';
 
-import SurvivorCarousel from '@/client/components/SurvivorCarousel';
 import SelectBy from '@/client/components/SelectBy';
+import SurvivorCarousel from '@/client/components/SurvivorCarousel';
 
 const Home = () => {
   const [signSelection, setSignSelection] = useState<string>('');

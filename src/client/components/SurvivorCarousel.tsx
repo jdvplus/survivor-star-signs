@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+import { RerollButton } from '@/client/components/ui/reroll-button';
 import {
   Carousel,
   CarouselContent,
@@ -7,7 +8,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/client/components/ui/carousel';
-import { RerollButton } from '@/client/components/ui/reroll-button';
 
 import { Survivors, ZodiacSign, GenderSelectOptions } from '@/types';
 

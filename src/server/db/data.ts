@@ -1262,6 +1262,4 @@ const survivors: Array<Survivors> = [
   // All-Stars (skipped bc full returnee season)
 ];
 
-export default survivors;
-
 writeDb(survivors);
