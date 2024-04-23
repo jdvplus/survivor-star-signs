@@ -22,7 +22,7 @@ const SurvivorCarousel = ({
 }) => {
   const [data, setData] = useState<Array<Survivors>>([]);
 
-  useEffect(() => console.log('data', data), [data]);
+  // useEffect(() => console.log('data', data), [data]);
 
   const fetchData = async (apiRoute: string, init?: RequestInit) => {
     const res = await fetch(apiRoute, init);
@@ -40,13 +40,13 @@ const SurvivorCarousel = ({
     <div className='container p-4 border border-slate-200 rounded-xl shadow-lg'>
       {/* only show re-roll button when carousel is displaying random assortment of players */}
       {!selectionInfo && (
-        <div className='mb-4'>
+        <div className='mb-4' onClick={() => fetchData('/api/random')}>
           <RerollButton />
         </div>
       )}
 
       {/* only show relevant stats when carousel is displaying query results */}
-      {selectionInfo && selectionInfo[0] ? (
+      {selectionInfo && selectionInfo[0] && (
         <p className='text-3xl mb-4'>
           {data.length}{' '}
           {selectionInfo[0][selectionInfo[0].length - 1] === 's'
@@ -54,7 +54,7 @@ const SurvivorCarousel = ({
             : `${selectionInfo[0]}s`}{' '}
           have played Survivor.
         </p>
-      ) : null}
+      )}
 
       <Carousel
         opts={{

@@ -2,13 +2,12 @@ import { Survivors } from '@/types.ts';
 
 // source: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 const shuffleArray = (array: Array<Survivors>): void => {
-  let i = array.length;
+  let n = array.length;
 
-  while (i) {
-    const random = Math.floor(Math.random() * i);
-    i--;
+  while (n) {
+    const random = Math.floor(Math.random() * n--);
 
-    [array[i], array[random]] = [array[random], array[i]];
+    [array[n], array[random]] = [array[random], array[n]];
   }
 };
 

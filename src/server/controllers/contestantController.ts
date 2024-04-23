@@ -42,7 +42,7 @@ const contestantController: ContestantController = {
         const parsedData: Array<Survivors> = JSON.parse(data);
 
         const generateRandomIndex = (): number =>
-          Math.round(Math.random() * parsedData.length);
+          Math.floor(Math.random() * parsedData.length);
 
         const randomSurvivors: Set<Survivors> = new Set();
 
