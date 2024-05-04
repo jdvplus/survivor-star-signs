@@ -11,4 +11,24 @@ const shuffleArray = (array: Array<Survivors>): void => {
   }
 };
 
-export { shuffleArray };
+const makeInitials = (str: string) => {
+  let res = '';
+
+  for (let i = 0; i < str.length; i++) {
+    if (
+      str[i] === str[i].toUpperCase() &&
+      str[i] !== ' ' &&
+      str[i] !== '.' &&
+      str[i] !== ',' &&
+      str[i] !== '-' &&
+      str[i] !== "'" &&
+      str[i] !== '(' &&
+      str[i] !== ')'
+    )
+      res += str[i];
+  }
+
+  return res;
+};
+
+export { shuffleArray, makeInitials };

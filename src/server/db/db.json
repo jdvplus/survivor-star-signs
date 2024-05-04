@@ -2,7 +2,7 @@
   {
     "contestant": "Sonja Christopher",
     "seasons": 1,
-    "birthday": "1937-01-28T08:00:00.000Z",
+    "birthday": "1937-01-27T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -10,12 +10,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 116,
-    "pathToPhoto": "/1/16"
+    "pathToPhoto": "/1/16",
+    "initials": "SC"
   },
   {
     "contestant": "B.B. Andersen",
     "seasons": 1,
-    "birthday": "1936-10-29T08:00:00.000Z",
+    "birthday": "1936-10-28T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -23,12 +24,13 @@
     "placements": 15,
     "appearances": 1,
     "id": 115,
-    "pathToPhoto": "/1/15"
+    "pathToPhoto": "/1/15",
+    "initials": "BBA"
   },
   {
     "contestant": "Stacey Stillman",
     "seasons": 1,
-    "birthday": "1972-08-11T07:00:00.000Z",
+    "birthday": "1972-08-10T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -36,12 +38,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 114,
-    "pathToPhoto": "/1/14"
+    "pathToPhoto": "/1/14",
+    "initials": "SS"
   },
   {
     "contestant": "Ramona Gray",
     "seasons": 1,
-    "birthday": "1971-01-20T08:00:00.000Z",
+    "birthday": "1971-01-19T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -49,12 +52,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 113,
-    "pathToPhoto": "/1/13"
+    "pathToPhoto": "/1/13",
+    "initials": "RG"
   },
   {
     "contestant": "Dirk Been",
     "seasons": 1,
-    "birthday": "1976-06-15T07:00:00.000Z",
+    "birthday": "1976-06-14T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -62,12 +66,13 @@
     "placements": 12,
     "appearances": 1,
     "id": 112,
-    "pathToPhoto": "/1/12"
+    "pathToPhoto": "/1/12",
+    "initials": "DB"
   },
   {
     "contestant": "Joel Klug",
     "seasons": 1,
-    "birthday": "1972-04-13T08:00:00.000Z",
+    "birthday": "1972-04-12T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -75,12 +80,13 @@
     "placements": 11,
     "appearances": 1,
     "id": 111,
-    "pathToPhoto": "/1/11"
+    "pathToPhoto": "/1/11",
+    "initials": "JK"
   },
   {
     "contestant": "Gretchen Cordy",
     "seasons": 1,
-    "birthday": "1962-02-07T08:00:00.000Z",
+    "birthday": "1962-02-06T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -88,12 +94,13 @@
     "placements": 10,
     "appearances": 1,
     "id": 110,
-    "pathToPhoto": "/1/10"
+    "pathToPhoto": "/1/10",
+    "initials": "GC"
   },
   {
     "contestant": "Greg Buis",
     "seasons": 1,
-    "birthday": "1975-12-31T08:00:00.000Z",
+    "birthday": "1975-12-30T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -101,12 +108,13 @@
     "placements": 9,
     "appearances": 1,
     "id": 109,
-    "pathToPhoto": "/1/9"
+    "pathToPhoto": "/1/9",
+    "initials": "GB"
   },
   {
     "contestant": "Jenna Lewis",
     "seasons": [1, 8],
-    "birthday": "1977-07-16T07:00:00.000Z",
+    "birthday": "1977-07-15T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -114,12 +122,13 @@
     "placements": [8, 3],
     "appearances": 1,
     "id": 108,
-    "pathToPhoto": "/1/8"
+    "pathToPhoto": "/1/8",
+    "initials": "JL"
   },
   {
     "contestant": "Gervase Peterson",
     "seasons": [1, 27],
-    "birthday": "1969-11-02T08:00:00.000Z",
+    "birthday": "1969-11-01T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -128,12 +137,13 @@
     "appearances": 2,
     "runnerUp": true,
     "id": 107,
-    "pathToPhoto": "/1/7"
+    "pathToPhoto": "/1/7",
+    "initials": "GP"
   },
   {
     "contestant": "Colleen Haskell",
     "seasons": 1,
-    "birthday": "1976-12-06T08:00:00.000Z",
+    "birthday": "1976-12-05T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -141,12 +151,13 @@
     "placements": 6,
     "appearances": 1,
     "id": 106,
-    "pathToPhoto": "/1/6"
+    "pathToPhoto": "/1/6",
+    "initials": "CH"
   },
   {
     "contestant": "Sean Kenniff",
     "seasons": 1,
-    "birthday": "1969-11-27T08:00:00.000Z",
+    "birthday": "1969-11-26T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -154,12 +165,13 @@
     "placements": 5,
     "appearances": 1,
     "id": 105,
-    "pathToPhoto": "/1/5"
+    "pathToPhoto": "/1/5",
+    "initials": "SK"
   },
   {
-    "contestant": "Susan 'Sue' Hawk",
+    "contestant": "Sue Hawk",
     "seasons": [1, 8],
-    "birthday": "1961-08-17T07:00:00.000Z",
+    "birthday": "1961-08-16T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -167,12 +179,13 @@
     "placements": [4, 13],
     "appearances": 2,
     "id": 104,
-    "pathToPhoto": "/1/4"
+    "pathToPhoto": "/1/4",
+    "initials": "SH"
   },
   {
     "contestant": "Rudy Boesch",
     "seasons": [1, 8],
-    "birthday": "1928-01-20T08:00:00.000Z",
+    "birthday": "1928-01-19T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -180,12 +193,13 @@
     "placements": [3, 17],
     "appearances": 2,
     "id": 103,
-    "pathToPhoto": "/1/3"
+    "pathToPhoto": "/1/3",
+    "initials": "RB"
   },
   {
     "contestant": "Kelly Wiglesworth",
     "seasons": [1, 31],
-    "birthday": "1977-06-24T07:00:00.000Z",
+    "birthday": "1977-06-23T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -194,12 +208,13 @@
     "appearances": 2,
     "runnerUp": true,
     "id": 102,
-    "pathToPhoto": "/1/2"
+    "pathToPhoto": "/1/2",
+    "initials": "KW"
   },
   {
     "contestant": "Richard Hatch",
     "seasons": [1, 8],
-    "birthday": "1961-04-08T08:00:00.000Z",
+    "birthday": "1961-04-07T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -208,12 +223,13 @@
     "appearances": 2,
     "winner": true,
     "id": 101,
-    "pathToPhoto": "/1/1"
+    "pathToPhoto": "/1/1",
+    "initials": "RH"
   },
   {
     "contestant": "Debb Eaton",
     "seasons": 2,
-    "birthday": "1955-06-11T07:00:00.000Z",
+    "birthday": "1955-06-10T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -221,12 +237,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 216,
-    "pathToPhoto": "/2/16"
+    "pathToPhoto": "/2/16",
+    "initials": "DE"
   },
   {
     "contestant": "Kel Gleason",
     "seasons": 2,
-    "birthday": "1968-01-05T08:00:00.000Z",
+    "birthday": "1968-01-04T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -234,12 +251,14 @@
     "placements": 15,
     "appearances": 1,
     "id": 215,
-    "pathToPhoto": "/2/15"
+    "pathToPhoto": "/2/15",
+    "initials": "KG"
   },
   {
-    "contestant": "Maralyn 'Mad Dog' Hershey",
+    "contestant": "Maralyn Hershey",
+    "nickname": "Mad Dog",
     "seasons": 2,
-    "birthday": "1949-01-24T08:00:00.000Z",
+    "birthday": "1949-01-23T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -247,12 +266,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 214,
-    "pathToPhoto": "/2/14"
+    "pathToPhoto": "/2/14",
+    "initials": "MH"
   },
   {
     "contestant": "Mitchell Olson",
     "seasons": 2,
-    "birthday": "1977-03-17T08:00:00.000Z",
+    "birthday": "1977-03-16T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -260,12 +280,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 213,
-    "pathToPhoto": "/2/13"
+    "pathToPhoto": "/2/13",
+    "initials": "MO"
   },
   {
     "contestant": "Kimmi Kappenberg",
     "seasons": [2, 31],
-    "birthday": "1972-11-11T08:00:00.000Z",
+    "birthday": "1972-11-10T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -273,12 +294,13 @@
     "placements": [12, 6],
     "appearances": 2,
     "id": 212,
-    "pathToPhoto": "/2/12"
+    "pathToPhoto": "/2/12",
+    "initials": "KK"
   },
   {
-    "contestant": "Michael 'Mike' Skupin",
+    "contestant": "Mike Skupin",
     "seasons": [2, 25],
-    "birthday": "1962-01-29T08:00:00.000Z",
+    "birthday": "1962-01-28T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -287,12 +309,13 @@
     "appearances": 2,
     "runnerUp": true,
     "id": 211,
-    "pathToPhoto": "/2/11"
+    "pathToPhoto": "/2/11",
+    "initials": "MS"
   },
   {
-    "contestant": "Jeffrey 'Jeff' Varner",
+    "contestant": "Jeff Varner",
     "seasons": [2, 31, 34],
-    "birthday": "1966-04-16T08:00:00.000Z",
+    "birthday": "1966-04-15T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -300,12 +323,13 @@
     "placements": [10, 17, 14],
     "appearances": 3,
     "id": 210,
-    "pathToPhoto": "/2/10"
+    "pathToPhoto": "/2/10",
+    "initials": "JV"
   },
   {
     "contestant": "Alicia Calaway",
     "seasons": [2, 8],
-    "birthday": "1968-05-01T07:00:00.000Z",
+    "birthday": "1968-04-30T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -313,12 +337,13 @@
     "placements": [9, 7],
     "appearances": 2,
     "id": 209,
-    "pathToPhoto": "/2/9"
+    "pathToPhoto": "/2/9",
+    "initials": "AC"
   },
   {
     "contestant": "Jerri Manthey",
     "seasons": [2, 8, 20],
-    "birthday": "1970-09-05T07:00:00.000Z",
+    "birthday": "1970-09-04T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -326,12 +351,13 @@
     "placements": [8, 10, 4],
     "appearances": 3,
     "id": 208,
-    "pathToPhoto": "/2/8"
+    "pathToPhoto": "/2/8",
+    "initials": "JM"
   },
   {
     "contestant": "Nick Brown",
     "seasons": 2,
-    "birthday": "1977-04-02T08:00:00.000Z",
+    "birthday": "1977-04-01T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -339,12 +365,13 @@
     "placements": 7,
     "appearances": 1,
     "id": 207,
-    "pathToPhoto": "/2/7"
+    "pathToPhoto": "/2/7",
+    "initials": "NB"
   },
   {
     "contestant": "Amber (Brkich) Mariano",
     "seasons": [2, 8, 40],
-    "birthday": "1978-08-11T07:00:00.000Z",
+    "birthday": "1978-08-10T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -353,12 +380,13 @@
     "appearances": 3,
     "winner": true,
     "id": 206,
-    "pathToPhoto": "/2/6"
+    "pathToPhoto": "/2/6",
+    "initials": "ABM"
   },
   {
     "contestant": "Rodger Bingham",
     "seasons": 2,
-    "birthday": "1947-07-05T08:00:00.000Z",
+    "birthday": "1947-07-04T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -366,12 +394,13 @@
     "placements": 5,
     "appearances": 1,
     "id": 205,
-    "pathToPhoto": "/2/5"
+    "pathToPhoto": "/2/5",
+    "initials": "RB"
   },
   {
     "contestant": "Elisabeth Filarski",
     "seasons": 2,
-    "birthday": "1977-05-28T07:00:00.000Z",
+    "birthday": "1977-05-27T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -379,12 +408,13 @@
     "placements": 4,
     "appearances": 1,
     "id": 204,
-    "pathToPhoto": "/2/4"
+    "pathToPhoto": "/2/4",
+    "initials": "EF"
   },
   {
     "contestant": "Keith Famie",
     "seasons": 2,
-    "birthday": "1960-02-11T08:00:00.000Z",
+    "birthday": "1960-02-10T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -392,12 +422,13 @@
     "placements": 3,
     "appearances": 1,
     "id": 203,
-    "pathToPhoto": "/2/3"
+    "pathToPhoto": "/2/3",
+    "initials": "KF"
   },
   {
     "contestant": "Colby Donaldson",
     "seasons": [2, 8, 20],
-    "birthday": "1974-04-01T07:00:00.000Z",
+    "birthday": "1974-03-31T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -406,12 +437,13 @@
     "appearances": 3,
     "runnerUp": true,
     "id": 202,
-    "pathToPhoto": "/2/2"
+    "pathToPhoto": "/2/2",
+    "initials": "CD"
   },
   {
     "contestant": "Tina Wesson",
     "seasons": [2, 8, 27],
-    "birthday": "1960-12-26T08:00:00.000Z",
+    "birthday": "1960-12-25T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -420,12 +452,13 @@
     "appearances": 3,
     "winner": true,
     "id": 201,
-    "pathToPhoto": "/2/1"
+    "pathToPhoto": "/2/1",
+    "initials": "TW"
   },
   {
     "contestant": "Diane Ogden",
     "seasons": 3,
-    "birthday": "1959-04-27T07:00:00.000Z",
+    "birthday": "1959-04-26T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -433,12 +466,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 316,
-    "pathToPhoto": "/3/16"
+    "pathToPhoto": "/3/16",
+    "initials": "DO"
   },
   {
     "contestant": "Jessie Camacho",
     "seasons": 3,
-    "birthday": "1974-09-24T07:00:00.000Z",
+    "birthday": "1974-09-23T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Libra",
     "element": "Air",
@@ -446,12 +480,13 @@
     "placements": 15,
     "appearances": 1,
     "id": 315,
-    "pathToPhoto": "/3/15"
+    "pathToPhoto": "/3/15",
+    "initials": "JC"
   },
   {
     "contestant": "Carl Bilancione",
     "seasons": 3,
-    "birthday": "1955-06-20T07:00:00.000Z",
+    "birthday": "1955-06-19T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -459,12 +494,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 314,
-    "pathToPhoto": "/3/14"
+    "pathToPhoto": "/3/14",
+    "initials": "CB"
   },
   {
     "contestant": "Linda Spencer",
     "seasons": 3,
-    "birthday": "1957-01-01T08:00:00.000Z",
+    "birthday": "1956-12-31T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -472,12 +508,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 313,
-    "pathToPhoto": "/3/13"
+    "pathToPhoto": "/3/13",
+    "initials": "LS"
   },
   {
     "contestant": "Silas Gaither",
     "seasons": 3,
-    "birthday": "1978-01-28T08:00:00.000Z",
+    "birthday": "1978-01-27T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -485,12 +522,13 @@
     "placements": 12,
     "appearances": 1,
     "id": 312,
-    "pathToPhoto": "/3/12"
+    "pathToPhoto": "/3/12",
+    "initials": "SG"
   },
   {
     "contestant": "Lindsey Richter",
     "seasons": 3,
-    "birthday": "1974-08-31T07:00:00.000Z",
+    "birthday": "1974-08-30T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -498,12 +536,13 @@
     "placements": 11,
     "appearances": 1,
     "id": 311,
-    "pathToPhoto": "/3/11"
+    "pathToPhoto": "/3/11",
+    "initials": "LR"
   },
   {
     "contestant": "Clarence Black",
     "seasons": 3,
-    "birthday": "1976-12-21T08:00:00.000Z",
+    "birthday": "1976-12-20T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -511,12 +550,13 @@
     "placements": 10,
     "appearances": 1,
     "id": 310,
-    "pathToPhoto": "/3/10"
+    "pathToPhoto": "/3/10",
+    "initials": "CB"
   },
   {
     "contestant": "Kelly Goldsmith",
     "seasons": 3,
-    "birthday": "1979-04-27T08:00:00.000Z",
+    "birthday": "1979-04-26T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -524,12 +564,13 @@
     "placements": 9,
     "appearances": 1,
     "id": 309,
-    "pathToPhoto": "/3/9"
+    "pathToPhoto": "/3/9",
+    "initials": "KG"
   },
   {
     "contestant": "Brandon Quinton",
     "seasons": 3,
-    "birthday": "1976-01-22T08:00:00.000Z",
+    "birthday": "1976-01-21T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -537,12 +578,13 @@
     "placements": 8,
     "appearances": 1,
     "id": 308,
-    "pathToPhoto": "/3/8"
+    "pathToPhoto": "/3/8",
+    "initials": "BQ"
   },
   {
     "contestant": "Frank Garrison",
     "seasons": 3,
-    "birthday": "1958-07-22T07:00:00.000Z",
+    "birthday": "1958-07-21T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -550,12 +592,13 @@
     "placements": 7,
     "appearances": 1,
     "id": 307,
-    "pathToPhoto": "/3/7"
+    "pathToPhoto": "/3/7",
+    "initials": "FG"
   },
   {
     "contestant": "Kim Powers",
     "seasons": 3,
-    "birthday": "1971-12-03T08:00:00.000Z",
+    "birthday": "1971-12-02T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -563,12 +606,14 @@
     "placements": 6,
     "appearances": 1,
     "id": 306,
-    "pathToPhoto": "/3/6"
+    "pathToPhoto": "/3/6",
+    "initials": "KP"
   },
   {
-    "contestant": "Teresa 'T-Bird' Cooper",
+    "contestant": "Teresa Cooper",
+    "nickname": "T-Bird",
     "seasons": 3,
-    "birthday": "1959-05-05T07:00:00.000Z",
+    "birthday": "1959-05-04T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -576,12 +621,14 @@
     "placements": 5,
     "appearances": 1,
     "id": 305,
-    "pathToPhoto": "/3/5"
+    "pathToPhoto": "/3/5",
+    "initials": "TC"
   },
   {
-    "contestant": "Tom 'Big Tom' Buchanan",
+    "contestant": "Tom Buchanan",
+    "nickname": "Big Tom",
     "seasons": [3, 8],
-    "birthday": "1955-10-30T08:00:00.000Z",
+    "birthday": "1955-10-29T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -589,12 +636,13 @@
     "placements": [4, 5],
     "appearances": 2,
     "id": 304,
-    "pathToPhoto": "/3/4"
+    "pathToPhoto": "/3/4",
+    "initials": "TB"
   },
   {
-    "contestant": "Lex van den Berghe",
+    "contestant": "Lex Van Den Berghe",
     "seasons": [3, 8],
-    "birthday": "1963-06-18T07:00:00.000Z",
+    "birthday": "1963-06-17T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -602,12 +650,13 @@
     "placements": [3, 9],
     "appearances": 2,
     "id": 303,
-    "pathToPhoto": "/3/3"
+    "pathToPhoto": "/3/3",
+    "initials": "LVDB"
   },
   {
     "contestant": "Kim Johnson",
     "seasons": 3,
-    "birthday": "1944-09-18T07:00:00.000Z",
+    "birthday": "1944-09-17T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -616,12 +665,13 @@
     "appearances": 1,
     "runnerUp": true,
     "id": 302,
-    "pathToPhoto": "/3/2"
+    "pathToPhoto": "/3/2",
+    "initials": "KJ"
   },
   {
     "contestant": "Ethan Zohn",
     "seasons": [3, 8, 40],
-    "birthday": "1973-11-12T08:00:00.000Z",
+    "birthday": "1973-11-11T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -629,12 +679,13 @@
     "placements": [1, 11, 18],
     "appearances": 3,
     "id": 301,
-    "pathToPhoto": "/3/1"
+    "pathToPhoto": "/3/1",
+    "initials": "EZ"
   },
   {
     "contestant": "Peter Harkey",
     "seasons": 4,
-    "birthday": "1956-01-17T08:00:00.000Z",
+    "birthday": "1956-01-16T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -642,12 +693,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 416,
-    "pathToPhoto": "/4/16"
+    "pathToPhoto": "/4/16",
+    "initials": "PH"
   },
   {
     "contestant": "Patricia Jackson",
     "seasons": 4,
-    "birthday": "1952-04-08T08:00:00.000Z",
+    "birthday": "1952-04-07T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -655,12 +707,13 @@
     "placements": 15,
     "appearances": 1,
     "id": 415,
-    "pathToPhoto": "/4/15"
+    "pathToPhoto": "/4/15",
+    "initials": "PJ"
   },
   {
     "contestant": "Hunter Ellis",
     "seasons": 4,
-    "birthday": "1968-07-05T07:00:00.000Z",
+    "birthday": "1968-07-04T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -668,12 +721,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 414,
-    "pathToPhoto": "/4/14"
+    "pathToPhoto": "/4/14",
+    "initials": "HE"
   },
   {
     "contestant": "Sarah Jones",
     "seasons": 4,
-    "birthday": "1977-08-11T07:00:00.000Z",
+    "birthday": "1977-08-10T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -681,12 +735,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 413,
-    "pathToPhoto": "/4/13"
+    "pathToPhoto": "/4/13",
+    "initials": "SJ"
   },
   {
-    "contestant": "Gabriel 'Gabe' Cade",
+    "contestant": "Gabe Cade",
     "seasons": 4,
-    "birthday": "1978-07-01T07:00:00.000Z",
+    "birthday": "1978-06-30T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -694,12 +749,13 @@
     "placements": 12,
     "appearances": 1,
     "id": 412,
-    "pathToPhoto": "/4/12"
+    "pathToPhoto": "/4/12",
+    "initials": "GC"
   },
   {
     "contestant": "Gina Crews",
     "seasons": 4,
-    "birthday": "1973-02-07T08:00:00.000Z",
+    "birthday": "1973-02-06T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -707,12 +763,14 @@
     "placements": 11,
     "appearances": 1,
     "id": 411,
-    "pathToPhoto": "/4/11"
+    "pathToPhoto": "/4/11",
+    "initials": "GC"
   },
   {
-    "contestant": "Rob 'Boston Rob' Mariano",
+    "contestant": "Rob Mariano",
+    "nickname": "Boston Rob",
     "seasons": [4, 8, 20, 22, 40],
-    "birthday": "1975-12-25T08:00:00.000Z",
+    "birthday": "1975-12-24T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -722,12 +780,13 @@
     "runnerUp": true,
     "winner": true,
     "id": 410,
-    "pathToPhoto": "/4/10"
+    "pathToPhoto": "/4/10",
+    "initials": "RM"
   },
   {
     "contestant": "John Carroll",
     "seasons": 4,
-    "birthday": "1965-06-14T07:00:00.000Z",
+    "birthday": "1965-06-13T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -735,12 +794,13 @@
     "placements": 9,
     "appearances": 1,
     "id": 409,
-    "pathToPhoto": "/4/9"
+    "pathToPhoto": "/4/9",
+    "initials": "JC"
   },
   {
     "contestant": "Zoe Zanidakis",
     "seasons": 4,
-    "birthday": "1966-03-17T08:00:00.000Z",
+    "birthday": "1966-03-16T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -748,12 +808,13 @@
     "placements": 8,
     "appearances": 1,
     "id": 408,
-    "pathToPhoto": "/4/8"
+    "pathToPhoto": "/4/8",
+    "initials": "ZZ"
   },
   {
     "contestant": "Tammy Leitner",
     "seasons": 4,
-    "birthday": "1972-07-03T07:00:00.000Z",
+    "birthday": "1972-07-02T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Cancer",
     "element": "Water",
@@ -761,12 +822,14 @@
     "placements": 7,
     "appearances": 1,
     "id": 407,
-    "pathToPhoto": "/4/7"
+    "pathToPhoto": "/4/7",
+    "initials": "TL"
   },
   {
-    "contestant": "Robert 'The General' DeCanio",
+    "contestant": "Robert DeCanio",
+    "nickname": "The General",
     "seasons": 4,
-    "birthday": "1963-06-19T07:00:00.000Z",
+    "birthday": "1963-06-18T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -774,12 +837,13 @@
     "placements": 6,
     "appearances": 1,
     "id": 406,
-    "pathToPhoto": "/4/6"
+    "pathToPhoto": "/4/6",
+    "initials": "RDC"
   },
   {
     "contestant": "Sean Rector",
     "seasons": 4,
-    "birthday": "1971-08-20T07:00:00.000Z",
+    "birthday": "1971-08-19T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -787,12 +851,13 @@
     "placements": 5,
     "appearances": 1,
     "id": 405,
-    "pathToPhoto": "/4/5"
+    "pathToPhoto": "/4/5",
+    "initials": "SR"
   },
   {
     "contestant": "Paschal English",
     "seasons": 4,
-    "birthday": "1945-03-05T07:00:00.000Z",
+    "birthday": "1945-03-04T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -800,12 +865,13 @@
     "placements": 4,
     "appearances": 1,
     "id": 404,
-    "pathToPhoto": "/4/4"
+    "pathToPhoto": "/4/4",
+    "initials": "PE"
   },
   {
     "contestant": "Kathy Vavrick-O'Brien",
     "seasons": [4, 8],
-    "birthday": "1955-01-06T08:00:00.000Z",
+    "birthday": "1955-01-05T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -813,12 +879,13 @@
     "placements": [3, 8],
     "appearances": 2,
     "id": 403,
-    "pathToPhoto": "/4/3"
+    "pathToPhoto": "/4/3",
+    "initials": "KVOB"
   },
   {
     "contestant": "Neleh Dennis",
     "seasons": 4,
-    "birthday": "1980-02-19T08:00:00.000Z",
+    "birthday": "1980-02-18T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -827,12 +894,13 @@
     "appearances": 1,
     "runnerUp": true,
     "id": 402,
-    "pathToPhoto": "/4/2"
+    "pathToPhoto": "/4/2",
+    "initials": "ND"
   },
   {
     "contestant": "Vecepia Towery",
     "seasons": 4,
-    "birthday": "1965-12-09T08:00:00.000Z",
+    "birthday": "1965-12-08T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -841,12 +909,13 @@
     "appearances": 1,
     "winner": true,
     "id": 401,
-    "pathToPhoto": "/4/1"
+    "pathToPhoto": "/4/1",
+    "initials": "VT"
   },
   {
     "contestant": "John Raymond",
     "seasons": 5,
-    "birthday": "1962-02-21T08:00:00.000Z",
+    "birthday": "1962-02-20T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -854,12 +923,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 516,
-    "pathToPhoto": "/5/16"
+    "pathToPhoto": "/5/16",
+    "initials": "JR"
   },
   {
     "contestant": "Tanya Vance",
     "seasons": 5,
-    "birthday": "1974-11-29T08:00:00.000Z",
+    "birthday": "1974-11-28T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -867,12 +937,13 @@
     "placements": 15,
     "appearances": 1,
     "id": 515,
-    "pathToPhoto": "/5/15"
+    "pathToPhoto": "/5/15",
+    "initials": "TV"
   },
   {
     "contestant": "Jed Hildebrand",
     "seasons": 5,
-    "birthday": "1976-12-05T08:00:00.000Z",
+    "birthday": "1976-12-04T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -880,12 +951,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 514,
-    "pathToPhoto": "/5/14"
+    "pathToPhoto": "/5/14",
+    "initials": "JH"
   },
   {
     "contestant": "Ghandia Johnson",
     "seasons": 5,
-    "birthday": "1969-01-03T08:00:00.000Z",
+    "birthday": "1969-01-02T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -893,12 +965,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 513,
-    "pathToPhoto": "/5/13"
+    "pathToPhoto": "/5/13",
+    "initials": "GJ"
   },
   {
     "contestant": "Stephanie Dill",
     "seasons": 5,
-    "birthday": "1972-11-15T08:00:00.000Z",
+    "birthday": "1972-11-14T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -906,12 +979,13 @@
     "placements": 12,
     "appearances": 1,
     "id": 512,
-    "pathToPhoto": "/5/12"
+    "pathToPhoto": "/5/12",
+    "initials": "SD"
   },
   {
     "contestant": "Robb Zbacnik",
     "seasons": 5,
-    "birthday": "1978-09-12T07:00:00.000Z",
+    "birthday": "1978-09-11T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -919,12 +993,13 @@
     "placements": 11,
     "appearances": 1,
     "id": 511,
-    "pathToPhoto": "/5/11"
+    "pathToPhoto": "/5/11",
+    "initials": "RZ"
   },
   {
     "contestant": "Shii Ann Huang",
     "seasons": [5, 8],
-    "birthday": "1974-01-24T07:00:00.000Z",
+    "birthday": "1974-01-23T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -932,12 +1007,13 @@
     "placements": [10, 6],
     "appearances": 2,
     "id": 510,
-    "pathToPhoto": "/5/10"
+    "pathToPhoto": "/5/10",
+    "initials": "SAH"
   },
   {
     "contestant": "Erin Collins",
     "seasons": 5,
-    "birthday": "1976-01-07T08:00:00.000Z",
+    "birthday": "1976-01-06T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -945,12 +1021,13 @@
     "placements": 9,
     "appearances": 1,
     "id": 509,
-    "pathToPhoto": "/5/9"
+    "pathToPhoto": "/5/9",
+    "initials": "EC"
   },
   {
     "contestant": "Ken Stafford",
     "seasons": 5,
-    "birthday": "1972-06-20T07:00:00.000Z",
+    "birthday": "1972-06-19T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Gemini",
     "element": "Air",
@@ -958,12 +1035,13 @@
     "placements": 8,
     "appearances": 1,
     "id": 508,
-    "pathToPhoto": "/5/8"
+    "pathToPhoto": "/5/8",
+    "initials": "KS"
   },
   {
     "contestant": "Penny Ramsey",
     "seasons": 5,
-    "birthday": "1975-04-24T07:00:00.000Z",
+    "birthday": "1975-04-23T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -971,12 +1049,13 @@
     "placements": 7,
     "appearances": 1,
     "id": 507,
-    "pathToPhoto": "/5/7"
+    "pathToPhoto": "/5/7",
+    "initials": "PR"
   },
   {
     "contestant": "Jake Billingsley",
     "seasons": 5,
-    "birthday": "1941-08-21T08:00:00.000Z",
+    "birthday": "1941-08-20T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -984,12 +1063,13 @@
     "placements": 6,
     "appearances": 1,
     "id": 506,
-    "pathToPhoto": "/5/6"
+    "pathToPhoto": "/5/6",
+    "initials": "JB"
   },
   {
     "contestant": "Ted Rogers, Jr.",
     "seasons": 5,
-    "birthday": "1964-12-28T08:00:00.000Z",
+    "birthday": "1964-12-27T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -997,12 +1077,13 @@
     "placements": 5,
     "appearances": 1,
     "id": 505,
-    "pathToPhoto": "/5/5"
+    "pathToPhoto": "/5/5",
+    "initials": "TRJ"
   },
   {
     "contestant": "Helen Glover",
     "seasons": 5,
-    "birthday": "1955-04-28T07:00:00.000Z",
+    "birthday": "1955-04-27T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -1010,12 +1091,13 @@
     "placements": 4,
     "appearances": 1,
     "id": 504,
-    "pathToPhoto": "/5/4"
+    "pathToPhoto": "/5/4",
+    "initials": "HG"
   },
   {
     "contestant": "Jan Gentry",
     "seasons": 5,
-    "birthday": "1948-10-31T07:00:00.000Z",
+    "birthday": "1948-10-30T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -1023,12 +1105,13 @@
     "placements": 3,
     "appearances": 1,
     "id": 503,
-    "pathToPhoto": "/5/3"
+    "pathToPhoto": "/5/3",
+    "initials": "JG"
   },
   {
     "contestant": "Clay Jordan",
     "seasons": 5,
-    "birthday": "1966-12-30T08:00:00.000Z",
+    "birthday": "1966-12-29T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -1037,12 +1120,13 @@
     "appearances": 1,
     "runnerUp": true,
     "id": 502,
-    "pathToPhoto": "/5/2"
+    "pathToPhoto": "/5/2",
+    "initials": "CJ"
   },
   {
     "contestant": "Brian Heidik",
     "seasons": 5,
-    "birthday": "1956-03-09T08:00:00.000Z",
+    "birthday": "1956-03-08T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -1051,12 +1135,13 @@
     "appearances": 1,
     "winner": true,
     "id": 501,
-    "pathToPhoto": "/5/1"
+    "pathToPhoto": "/5/1",
+    "initials": "BH"
   },
   {
     "contestant": "Ryan Aiken",
     "seasons": 6,
-    "birthday": "1979-02-13T08:00:00.000Z",
+    "birthday": "1979-02-12T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -1064,12 +1149,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 616,
-    "pathToPhoto": "/6/16"
+    "pathToPhoto": "/6/16",
+    "initials": "RA"
   },
   {
     "contestant": "Janet Koth",
     "seasons": 6,
-    "birthday": "1955-11-18T08:00:00.000Z",
+    "birthday": "1955-11-17T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -1077,12 +1163,13 @@
     "placements": 15,
     "appearances": 1,
     "id": 615,
-    "pathToPhoto": "/6/15"
+    "pathToPhoto": "/6/15",
+    "initials": "JK"
   },
   {
     "contestant": "Daniel Lue",
     "seasons": 6,
-    "birthday": "1975-11-29T08:00:00.000Z",
+    "birthday": "1975-11-28T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -1090,12 +1177,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 614,
-    "pathToPhoto": "/6/14"
+    "pathToPhoto": "/6/14",
+    "initials": "DL"
   },
   {
     "contestant": "JoAnna Ward",
     "seasons": 6,
-    "birthday": "1971-04-29T07:00:00.000Z",
+    "birthday": "1971-04-28T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -1103,12 +1191,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 613,
-    "pathToPhoto": "/6/13"
+    "pathToPhoto": "/6/13",
+    "initials": "JAW"
   },
   {
     "contestant": "Jeanne Hebert",
     "seasons": 6,
-    "birthday": "1962-01-06T08:00:00.000Z",
+    "birthday": "1962-01-05T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -1116,12 +1205,13 @@
     "placements": 12,
     "appearances": 1,
     "id": 612,
-    "pathToPhoto": "/6/12"
+    "pathToPhoto": "/6/12",
+    "initials": "JH"
   },
   {
     "contestant": "Shawna Mitchell",
     "seasons": 6,
-    "birthday": "1979-07-28T07:00:00.000Z",
+    "birthday": "1979-07-27T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -1129,12 +1219,13 @@
     "placements": 11,
     "appearances": 1,
     "id": 611,
-    "pathToPhoto": "/6/11"
+    "pathToPhoto": "/6/11",
+    "initials": "SM"
   },
   {
     "contestant": "Roger Sexton",
     "seasons": 6,
-    "birthday": "1946-10-26T08:00:00.000Z",
+    "birthday": "1946-10-25T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -1142,12 +1233,13 @@
     "placements": 10,
     "appearances": 1,
     "id": 610,
-    "pathToPhoto": "/6/10"
+    "pathToPhoto": "/6/10",
+    "initials": "RS"
   },
   {
     "contestant": "Dave Johnson",
     "seasons": 6,
-    "birthday": "1979-01-16T08:00:00.000Z",
+    "birthday": "1979-01-15T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -1155,12 +1247,13 @@
     "placements": 9,
     "appearances": 1,
     "id": 609,
-    "pathToPhoto": "/6/9"
+    "pathToPhoto": "/6/9",
+    "initials": "DJ"
   },
   {
     "contestant": "Deena Bennett",
     "seasons": 6,
-    "birthday": "1967-02-12T08:00:00.000Z",
+    "birthday": "1967-02-11T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -1168,12 +1261,13 @@
     "placements": 8,
     "appearances": 1,
     "id": 608,
-    "pathToPhoto": "/6/8"
+    "pathToPhoto": "/6/8",
+    "initials": "DB"
   },
   {
     "contestant": "Alex Bell",
     "seasons": 6,
-    "birthday": "1953-05-16T07:00:00.000Z",
+    "birthday": "1953-05-15T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -1181,12 +1275,13 @@
     "placements": 7,
     "appearances": 1,
     "id": 607,
-    "pathToPhoto": "/6/7"
+    "pathToPhoto": "/6/7",
+    "initials": "AB"
   },
   {
     "contestant": "Christy Smith",
     "seasons": 6,
-    "birthday": "1978-09-13T07:00:00.000Z",
+    "birthday": "1978-09-12T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -1194,12 +1289,13 @@
     "placements": 6,
     "appearances": 1,
     "id": 606,
-    "pathToPhoto": "/6/6"
+    "pathToPhoto": "/6/6",
+    "initials": "CS"
   },
   {
     "contestant": "Heidi Strobel",
     "seasons": 6,
-    "birthday": "1978-10-29T07:00:00.000Z",
+    "birthday": "1978-10-28T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -1207,12 +1303,13 @@
     "placements": 5,
     "appearances": 1,
     "id": 605,
-    "pathToPhoto": "/6/5"
+    "pathToPhoto": "/6/5",
+    "initials": "HS"
   },
   {
     "contestant": "Butch Lockley",
     "seasons": 6,
-    "birthday": "1952-08-28T07:00:00.000Z",
+    "birthday": "1952-08-27T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -1220,12 +1317,13 @@
     "placements": 4,
     "appearances": 1,
     "id": 604,
-    "pathToPhoto": "/6/4"
+    "pathToPhoto": "/6/4",
+    "initials": "BL"
   },
   {
     "contestant": "Rob Cesternino",
     "seasons": [6, 8],
-    "birthday": "1978-10-20T07:00:00.000Z",
+    "birthday": "1978-10-19T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Libra",
     "element": "Air",
@@ -1233,12 +1331,13 @@
     "placements": [3, 15],
     "appearances": 2,
     "id": 603,
-    "pathToPhoto": "/6/3"
+    "pathToPhoto": "/6/3",
+    "initials": "RC"
   },
   {
-    "contestant": "Matthew von Ertfelda",
+    "contestant": "Matthew Von Ertfelda",
     "seasons": 6,
-    "birthday": "1969-07-24T07:00:00.000Z",
+    "birthday": "1969-07-23T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -1247,12 +1346,13 @@
     "appearances": 1,
     "runnerUp": true,
     "id": 602,
-    "pathToPhoto": "/6/2"
+    "pathToPhoto": "/6/2",
+    "initials": "MVE"
   },
   {
     "contestant": "Jenna Morasca",
     "seasons": [6, 8],
-    "birthday": "1981-02-15T08:00:00.000Z",
+    "birthday": "1981-02-14T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -1261,12 +1361,13 @@
     "appearances": 2,
     "winner": true,
     "id": 601,
-    "pathToPhoto": "/6/1"
+    "pathToPhoto": "/6/1",
+    "initials": "JM"
   },
   {
     "contestant": "Nicole Delma",
     "seasons": 7,
-    "birthday": "1978-09-19T07:00:00.000Z",
+    "birthday": "1978-09-18T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -1274,12 +1375,13 @@
     "placements": 16,
     "appearances": 1,
     "id": 716,
-    "pathToPhoto": "/7/16"
+    "pathToPhoto": "/7/16",
+    "initials": "ND"
   },
   {
     "contestant": "Ryan Shoulders",
     "seasons": 7,
-    "birthday": "1980-03-28T08:00:00.000Z",
+    "birthday": "1980-03-27T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -1287,12 +1389,13 @@
     "placements": 15,
     "appearances": 1,
     "id": 715,
-    "pathToPhoto": "/7/15"
+    "pathToPhoto": "/7/15",
+    "initials": "RS"
   },
   {
     "contestant": "Michelle Tesauro",
     "seasons": 7,
-    "birthday": "1981-01-16T08:00:00.000Z",
+    "birthday": "1981-01-15T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Capricorn",
     "element": "Earth",
@@ -1300,12 +1403,13 @@
     "placements": 14,
     "appearances": 1,
     "id": 714,
-    "pathToPhoto": "/7/14"
+    "pathToPhoto": "/7/14",
+    "initials": "MT"
   },
   {
     "contestant": "Trish Dunn",
     "seasons": 7,
-    "birthday": "1960-10-29T08:00:00.000Z",
+    "birthday": "1960-10-28T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -1313,12 +1417,13 @@
     "placements": 13,
     "appearances": 1,
     "id": 713,
-    "pathToPhoto": "/7/13"
+    "pathToPhoto": "/7/13",
+    "initials": "TD"
   },
   {
     "contestant": "Shawn Cohen",
     "seasons": 7,
-    "birthday": "1974-09-20T07:00:00.000Z",
+    "birthday": "1974-09-19T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Virgo",
     "element": "Earth",
@@ -1326,12 +1431,13 @@
     "placements": 12,
     "appearances": 1,
     "id": 712,
-    "pathToPhoto": "/7/12"
+    "pathToPhoto": "/7/12",
+    "initials": "SC"
   },
   {
     "contestant": "Osten Taylor",
     "seasons": 7,
-    "birthday": "1975-12-10T08:00:00.000Z",
+    "birthday": "1975-12-09T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Sagittarius",
     "element": "Fire",
@@ -1339,12 +1445,13 @@
     "placements": 11,
     "appearances": 1,
     "id": 711,
-    "pathToPhoto": "/7/11"
+    "pathToPhoto": "/7/11",
+    "initials": "OT"
   },
   {
     "contestant": "Andrew Savage",
     "seasons": [7, 31],
-    "birthday": "1963-07-29T07:00:00.000Z",
+    "birthday": "1963-07-28T21:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -1352,12 +1459,14 @@
     "placements": [10, 12],
     "appearances": 2,
     "id": 710,
-    "pathToPhoto": "/7/10"
+    "pathToPhoto": "/7/10",
+    "initials": "AS"
   },
   {
-    "contestant": "Ryan 'Ryno' Opray",
+    "contestant": "Ryan Opray",
+    "nickname": "Ryno",
     "seasons": 7,
-    "birthday": "1972-08-06T07:00:00.000Z",
+    "birthday": "1972-08-05T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -1365,12 +1474,13 @@
     "placements": 9,
     "appearances": 1,
     "id": 709,
-    "pathToPhoto": "/7/9"
+    "pathToPhoto": "/7/9",
+    "initials": "RO"
   },
   {
     "contestant": "Rupert Boneham",
     "seasons": [7, 8, 20, 27],
-    "birthday": "1964-01-27T08:00:00.000Z",
+    "birthday": "1964-01-26T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aquarius",
     "element": "Air",
@@ -1378,12 +1488,13 @@
     "placements": [8, 4, 6, 20],
     "appearances": 4,
     "id": 708,
-    "pathToPhoto": "/7/8"
+    "pathToPhoto": "/7/8",
+    "initials": "RB"
   },
   {
     "contestant": "Tijuana Bradley",
     "seasons": 7,
-    "birthday": "1976-07-23T07:00:00.000Z",
+    "birthday": "1976-07-22T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -1391,12 +1502,13 @@
     "placements": 7,
     "appearances": 1,
     "id": 707,
-    "pathToPhoto": "/7/7"
+    "pathToPhoto": "/7/7",
+    "initials": "TB"
   },
   {
     "contestant": "Christa Hastie",
     "seasons": 7,
-    "birthday": "1978-11-06T08:00:00.000Z",
+    "birthday": "1978-11-05T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Scorpio",
     "element": "Water",
@@ -1404,12 +1516,13 @@
     "placements": 6,
     "appearances": 1,
     "id": 706,
-    "pathToPhoto": "/7/6"
+    "pathToPhoto": "/7/6",
+    "initials": "CH"
   },
   {
     "contestant": "Burton Roberts",
     "seasons": 7,
-    "birthday": "1972-04-10T08:00:00.000Z",
+    "birthday": "1972-04-09T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -1417,12 +1530,13 @@
     "placements": 5,
     "appearances": 1,
     "id": 705,
-    "pathToPhoto": "/7/5"
+    "pathToPhoto": "/7/5",
+    "initials": "BR"
   },
   {
     "contestant": "Darrah Johnson",
     "seasons": 7,
-    "birthday": "1981-05-19T07:00:00.000Z",
+    "birthday": "1981-05-18T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Taurus",
     "element": "Earth",
@@ -1430,12 +1544,14 @@
     "placements": 4,
     "appearances": 1,
     "id": 704,
-    "pathToPhoto": "/7/4"
+    "pathToPhoto": "/7/4",
+    "initials": "DJ"
   },
   {
-    "contestant": "Jon 'Jonny Fairplay' Dalton",
+    "contestant": "Jon Dalton",
+    "nickname": "Jonny Fairplay",
     "seasons": [7, 16],
-    "birthday": "1974-03-11T07:00:00.000Z",
+    "birthday": "1974-03-10T22:00:00.000Z",
     "gender": "m",
     "zodiacSign": "Pisces",
     "element": "Water",
@@ -1443,12 +1559,13 @@
     "placements": [3, 20],
     "appearances": 2,
     "id": 703,
-    "pathToPhoto": "/7/3"
+    "pathToPhoto": "/7/3",
+    "initials": "JD"
   },
   {
-    "contestant": "Lillian 'Lill' Morris",
+    "contestant": "Lill Morris",
     "seasons": 7,
-    "birthday": "1952-04-03T08:00:00.000Z",
+    "birthday": "1952-04-02T22:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Aries",
     "element": "Fire",
@@ -1457,12 +1574,13 @@
     "appearances": 1,
     "runnerUp": true,
     "id": 702,
-    "pathToPhoto": "/7/2"
+    "pathToPhoto": "/7/2",
+    "initials": "LM"
   },
   {
     "contestant": "Sandra Diaz-Twine",
     "seasons": [7, 20, 34, 40],
-    "birthday": "1974-07-30T07:00:00.000Z",
+    "birthday": "1974-07-29T21:00:00.000Z",
     "gender": "f",
     "zodiacSign": "Leo",
     "element": "Fire",
@@ -1471,6 +1589,7 @@
     "appearances": 4,
     "winner": true,
     "id": 701,
-    "pathToPhoto": "/7/1"
+    "pathToPhoto": "/7/1",
+    "initials": "SDT"
   }
 ]

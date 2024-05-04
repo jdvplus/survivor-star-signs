@@ -1,5 +1,6 @@
 import { survivors } from '@/server/db/data.ts';
 import writeDb from '@/server/db/writeDb.ts';
+import { makeInitials } from '@/helpers.ts';
 
 for (const survivor of survivors) {
   // generate unique contestant IDs
@@ -17,6 +18,9 @@ for (const survivor of survivors) {
     Array.isArray(survivor.seasons) && Array.isArray(survivor.placements)
       ? `/${survivor.seasons[0]}/${survivor.placements[0]}`
       : `/${survivor.seasons}/${survivor.placements}`;
+
+  // generate initials for avatar fallback
+  survivor.initials = makeInitials(survivor.contestant);
 }
 
 writeDb(survivors);

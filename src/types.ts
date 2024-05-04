@@ -1,8 +1,11 @@
 type Survivors = {
-  id?: number; // dynamically added after
-  pathToPhoto?: string; // dynamically added after
+  // (below properties dynamically added after)
+  id?: number;
+  pathToPhoto?: string;
+  initials?: string;
 
   contestant: string;
+  nickname?: string;
   seasons: number | Array<number>;
   birthday: Date;
   gender: Gender;

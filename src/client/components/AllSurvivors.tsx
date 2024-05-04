@@ -29,6 +29,7 @@ const AllSurvivors = () => {
     <div className='grid grid-cols-8 gap-8'>
       {allSurvivors.map((survivor) => {
         const { contestant, pathToPhoto }: Survivors = survivor;
+
         return (
           <Avatar key={contestant}>
             <AvatarImage src={`${pathToPhoto}-avatar.jpg`} alt={contestant} />
