@@ -1,19 +1,14 @@
-import { Survivors } from '@/types.ts';
-
-// source: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-const shuffleArray = (array: Array<Survivors>): void => {
-  let n = array.length;
-
-  while (n) {
-    const random = Math.floor(Math.random() * n--);
-
-    [array[n], array[random]] = [array[random], array[n]];
+export function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
   }
-};
+  return shuffled
+}
 
-const makeInitials = (str: string) => {
-  let res = '';
-
+export function makeInitials(str: string): string {
+  let res = ''
   for (let i = 0; i < str.length; i++) {
     if (
       str[i] === str[i].toUpperCase() &&
@@ -25,10 +20,7 @@ const makeInitials = (str: string) => {
       str[i] !== '(' &&
       str[i] !== ')'
     )
-      res += str[i];
+      res += str[i]
   }
-
-  return res;
-};
-
-export { shuffleArray, makeInitials };
+  return res
+}

@@ -1,71 +1,47 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
-import { ZodiacSign, GenderSelectOptions } from '@/types';
+import { ZodiacSign } from '../../shared/types'
+import type { GenderSelectOptions } from '../../shared/types'
+import SelectBy from '@/components/ui/select-by'
+import SurvivorCarousel from '@/components/SurvivorCarousel'
+import { useSurvivorsByCategory } from '@/hooks/useSurvivorsByCategory'
 
-import SelectBy from '@/client/components/ui/select-by';
-import SurvivorCarousel from '@/client/components/SurvivorCarousel';
+const zodiacSigns = Object.values(ZodiacSign)
+const genderOptions: GenderSelectOptions[] = ['men', 'women', 'nb']
 
-const QueryByCategory = () => {
-  const [signSelection, setSignSelection] = useState<string>('');
-  const [genderSelection, setGenderSelection] = useState<string>('');
+export default function QueryByCategory() {
+  const [signSelection, setSignSelection] = useState('')
+  const [genderSelection, setGenderSelection] = useState('')
 
-  const zodiacSigns: Array<ZodiacSign> = [
-    ZodiacSign.Aries,
-    ZodiacSign.Taurus,
-    ZodiacSign.Gemini,
-    ZodiacSign.Cancer,
-    ZodiacSign.Leo,
-    ZodiacSign.Virgo,
-    ZodiacSign.Libra,
-    ZodiacSign.Scorpio,
-    ZodiacSign.Sagittarius,
-    ZodiacSign.Capricorn,
-    ZodiacSign.Aquarius,
-    ZodiacSign.Pisces,
-  ];
-  const genderSelectOptions: Array<GenderSelectOptions> = ['men', 'women', 'nb'];
-
-  //TODO: update with additional query keys in req.body (season)
-  const queryInit: RequestInit = {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ signSelection, genderSelection }),
-  };
+  const { data: filteredSurvivors = [] } = useSurvivorsByCategory(
+    signSelection || undefined,
+    genderSelection || undefined
+  )
 
   return (
-    <div className='container'>
-      {/* dropdown selects */}
-      <div className='flex flex-row'>
-        {/* choose zodiac sign */}
+    <div className="container">
+      <div className="flex flex-row">
         <SelectBy
-          category='zodiacSign'
-          categoryValue={signSelection as ZodiacSign}
+          category="zodiacSign"
+          categoryValue={signSelection}
           setter={setSignSelection}
           categoryOptions={zodiacSigns}
         />
 
-        {/* choose gender */}
         <SelectBy
-          category='gender'
-          categoryValue={genderSelection as GenderSelectOptions}
+          category="gender"
+          categoryValue={genderSelection}
           setter={setGenderSelection}
-          categoryOptions={genderSelectOptions}
+          categoryOptions={genderOptions}
         />
       </div>
 
-      {/* show carousel when query is made */}
       {(signSelection || genderSelection) && (
         <SurvivorCarousel
-          apiRoute='/api/survivors'
-          init={queryInit}
-          selectionInfo={[
-            signSelection as ZodiacSign,
-            genderSelection as GenderSelectOptions,
-          ]}
+          data={filteredSurvivors}
+          selectionLabel={signSelection || genderSelection}
         />
       )}
     </div>
-  );
-};
-
-export default QueryByCategory;
+  )
+}

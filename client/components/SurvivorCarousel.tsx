@@ -1,57 +1,36 @@
-import { useState, useEffect } from 'react';
-
-import { RerollButton } from '@/client/components/ui/reroll-button';
+import { RerollButton } from '@/components/ui/reroll-button'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/client/components/ui/carousel';
+} from '@/components/ui/carousel'
+import type { Survivor } from '../../shared/types'
 
-import { Survivors, ZodiacSign, GenderSelectOptions } from '@/types';
-
-const SurvivorCarousel = ({
-  apiRoute,
-  init,
-  selectionInfo,
+export default function SurvivorCarousel({
+  data,
+  onReroll,
+  selectionLabel,
 }: {
-  apiRoute: string;
-  init?: RequestInit;
-  selectionInfo?: Array<ZodiacSign | GenderSelectOptions>;
-}) => {
-  const [data, setData] = useState<Array<Survivors>>([]);
-
-  // useEffect(() => console.log('data', data), [data]);
-
-  const fetchData = async (apiRoute: string, init?: RequestInit) => {
-    const res = await fetch(apiRoute, init);
-    const data = await res.json();
-
-    setData(data);
-  };
-
-  // display random survivors
-  useEffect(() => {
-    fetchData(apiRoute, init);
-  }, [apiRoute, init, selectionInfo]);
-
+  data: Survivor[]
+  onReroll?: () => void
+  selectionLabel?: string
+}) {
   return (
-    <div className='container p-4 border border-slate-200 rounded-xl shadow-lg'>
-      {/* only show re-roll button when carousel is displaying random assortment of players */}
-      {!selectionInfo && (
-        <div className='mb-4' onClick={() => fetchData('/api/random')}>
+    <div className="container p-4 border border-border rounded-xl shadow-lg">
+      {onReroll && (
+        <div className="mb-4" onClick={onReroll}>
           <RerollButton />
         </div>
       )}
 
-      {/* only show relevant stats when carousel is displaying query results */}
-      {selectionInfo && selectionInfo[0] && (
-        <p className='text-3xl mb-4'>
+      {selectionLabel && (
+        <p className="text-3xl mb-4">
           {data.length}{' '}
-          {selectionInfo[0][selectionInfo[0].length - 1] === 's'
-            ? selectionInfo[0]
-            : `${selectionInfo[0]}s`}{' '}
+          {selectionLabel.endsWith('s')
+            ? selectionLabel
+            : `${selectionLabel}s`}{' '}
           have played Survivor.
         </p>
       )}
@@ -64,13 +43,13 @@ const SurvivorCarousel = ({
       >
         <CarouselContent>
           {data.map((survivor) => (
-            <CarouselItem key={survivor.contestant} className='basis-1/2'>
+            <CarouselItem key={survivor.contestant} className="basis-1/2">
               <img
-                className='aspect-auto h-[20rem] m-auto rounded-xl'
+                className="aspect-auto h-[20rem] m-auto rounded-xl"
                 src={`${survivor.pathToPhoto}.png`}
                 alt={survivor.contestant}
               />
-              <p className='text-2xl'>{survivor.contestant.toLowerCase()}</p>
+              <p className="text-2xl">{survivor.contestant.toLowerCase()}</p>
               <p>{survivor.zodiacSign.toLowerCase()}</p>
             </CarouselItem>
           ))}
@@ -79,7 +58,5 @@ const SurvivorCarousel = ({
         <CarouselNext />
       </Carousel>
     </div>
-  );
-};
-
-export default SurvivorCarousel;
+  )
+}

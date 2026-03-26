@@ -1,44 +1,32 @@
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react'
 
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from '@/client/components/ui/avatar';
+} from '@/components/ui/avatar'
+import { useSurvivors } from '@/hooks/useSurvivors'
+import { shuffleArray } from '@/lib/helpers'
 
-import { Survivors } from '@/types';
+export default function AllSurvivors() {
+  const { data: allSurvivors = [] } = useSurvivors()
 
-import { shuffleArray } from '@/helpers';
-
-const AllSurvivors = () => {
-  const [allSurvivors, setAllSurvivors] = useState<Array<Survivors>>([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch('/api/survivors');
-      const data = await res.json();
-
-      shuffleArray(data);
-      setAllSurvivors(data);
-    };
-
-    fetchData();
-  }, []);
+  const shuffled = useMemo(
+    () => shuffleArray(allSurvivors),
+    [allSurvivors]
+  )
 
   return (
-    <div className='grid grid-cols-8 gap-8'>
-      {allSurvivors.map((survivor) => {
-        const { contestant, pathToPhoto }: Survivors = survivor;
-
-        return (
-          <Avatar key={contestant}>
-            <AvatarImage src={`${pathToPhoto}-avatar.jpg`} alt={contestant} />
-            <AvatarFallback>{contestant[0]}</AvatarFallback>
-          </Avatar>
-        );
-      })}
+    <div className="grid grid-cols-8 gap-8">
+      {shuffled.map((survivor) => (
+        <Avatar key={survivor.contestant}>
+          <AvatarImage
+            src={`${survivor.pathToPhoto}-avatar.jpg`}
+            alt={survivor.contestant}
+          />
+          <AvatarFallback>{survivor.contestant[0]}</AvatarFallback>
+        </Avatar>
+      ))}
     </div>
-  );
-};
-
-export default AllSurvivors;
+  )
+}
