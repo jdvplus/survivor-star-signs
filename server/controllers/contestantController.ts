@@ -46,6 +46,7 @@ const contestantController: ContestantController = {
 
         const randomSurvivors: Set<Survivors> = new Set();
 
+        // FIXME: rethink complexity of this
         while (randomSurvivors.size < 32) {
           randomSurvivors.add(parsedData[generateRandomIndex()]);
         }

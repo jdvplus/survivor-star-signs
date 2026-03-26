@@ -23,7 +23,7 @@ const QueryByCategory = () => {
     ZodiacSign.Aquarius,
     ZodiacSign.Pisces,
   ];
-  const genderSelectOptions: Array<GenderSelectOptions> = ['men', 'women'];
+  const genderSelectOptions: Array<GenderSelectOptions> = ['men', 'women', 'nb'];
 
   //TODO: update with additional query keys in req.body (season)
   const queryInit: RequestInit = {

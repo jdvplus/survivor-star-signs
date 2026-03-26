@@ -1,8 +1,9 @@
 import ViteExpress from 'vite-express';
 import express, { ErrorRequestHandler } from 'express';
-import path from 'path';
+import path, { dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-import { __dirname } from '@/utils/dirname.ts';
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 import apiRouter from '@/server/routers/apiRouter.ts';
 
@@ -14,7 +15,7 @@ app.use(express.json());
 
 app.use('/api', apiRouter);
 
-//TODO: catch-all route handler (404)
+//FIXME: problem with catch-all route handler (404)
 
 const globalErrorHandler: ErrorRequestHandler = (err, _, res, _next) => {
   console.error(err.stack);

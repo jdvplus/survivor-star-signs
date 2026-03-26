@@ -17,7 +17,7 @@ const SelectBy = ({
   categoryOptions,
 }: {
   category: string;
-  categoryValue: ZodiacSign | 'men' | 'women'; //TODO: update this w/ season
+  categoryValue: ZodiacSign | 'men' | 'women' | 'nb'; //TODO: update this w/ season
   setter: React.Dispatch<React.SetStateAction<string>>; //TODO: update this w/ season
   categoryOptions: Array<ZodiacSign | GenderSelectOptions>;
 }) => {
