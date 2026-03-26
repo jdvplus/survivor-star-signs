@@ -59,7 +59,7 @@ export default function AllSurvivors() {
     <div className="space-y-6 md:space-y-8">
       {rows.map((row, i) => (
         <ScrollRow
-          key={i}
+          key={`row-${i % 2 === 0 ? 'right' : 'left'}-${i}`}
           survivors={row}
           direction={i % 2 === 0 ? 'right' : 'left'}
         />
