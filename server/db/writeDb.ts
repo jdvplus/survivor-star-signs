@@ -1,13 +1,19 @@
-import fs from 'fs'
+import fs from 'fs/promises'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
 import type { Survivor } from '../../shared/types.ts'
 
-export default function writeDb(data: Survivor[], db = 'server/db/db.json') {
-  if (!data) return 'invalid input'
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const defaultDbPath = path.join(__dirname, 'db.json')
 
-  try {
-    return fs.writeFileSync(db, JSON.stringify(data))
-  } catch (err) {
-    console.error(err)
+export default async function writeDb(
+  data: Survivor[],
+  dbPath = defaultDbPath
+) {
+  if (!Array.isArray(data) || data.length === 0) {
+    throw new Error('writeDb requires a non-empty array of survivors')
   }
+
+  await fs.writeFile(dbPath, JSON.stringify(data))
 }
