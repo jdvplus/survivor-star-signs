@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import ThemeToggle from '@/components/ui/theme-toggle'
 import SurvivorCarousel from '@/components/SurvivorCarousel'
 import QueryByCategory from '@/components/QueryByCategory'
@@ -25,10 +24,6 @@ export default function App() {
       </div>
 
       <SurvivorCarousel data={randomSurvivors} onReroll={() => refetch()} />
-
-      <div className="container p-4">
-        <Button className="text-xl">enter</Button>
-      </div>
 
       <ThemeToggle />
 
