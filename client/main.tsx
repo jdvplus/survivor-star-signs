@@ -1,17 +1,18 @@
-import './index.css';
+import './tailwind.css'
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 
-import { ThemeProvider } from '@/client/components/ui/theme-provider';
-import App from '@/client/App';
+import { ThemeProvider } from '@/providers/theme'
+import { QueryProvider } from '@/providers/query'
+import App from '@/App'
 
-const root = document.getElementById('root') as HTMLElement;
-
-ReactDOM.createRoot(root).render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>
-);
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <QueryProvider>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </QueryProvider>
+  </StrictMode>
+)
