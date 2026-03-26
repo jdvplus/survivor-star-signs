@@ -1,18 +1,22 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import path, { dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+import tailwindcss from '@tailwindcss/vite'
+import path from 'path'
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-
-  // added below for shadcn
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(__dirname, './client'),
     },
   },
-});
+  server: {
+    host: true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+    },
+  },
+})
