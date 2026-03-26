@@ -6,7 +6,7 @@ import QueryByCategory from '@/components/QueryByCategory'
 import AllSurvivors from '@/components/AllSurvivors'
 import { useRandomSurvivors } from '@/hooks/useRandomSurvivors'
 
-const REROLL_INTERVAL = 60
+const REROLL_INTERVAL = 10
 
 export default function App() {
   const { data: randomSurvivors = [], refetch } = useRandomSurvivors()
