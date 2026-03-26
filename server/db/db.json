@@ -650,7 +650,7 @@
     "appearances": 2,
     "id": 303,
     "pathToPhoto": "/3/3",
-    "initials": "LB"
+    "initials": "LVDB"
   },
   {
     "contestant": "Kim Johnson",
@@ -835,7 +835,7 @@
     "appearances": 1,
     "id": 406,
     "pathToPhoto": "/4/6",
-    "initials": "RTGDC"
+    "initials": "RTGD"
   },
   {
     "contestant": "Sean Rector",
@@ -1189,7 +1189,7 @@
     "appearances": 1,
     "id": 613,
     "pathToPhoto": "/6/13",
-    "initials": "JAW"
+    "initials": "JW"
   },
   {
     "contestant": "Jeanne Hebert",
@@ -1344,7 +1344,7 @@
     "runnerUp": true,
     "id": 602,
     "pathToPhoto": "/6/2",
-    "initials": "ME"
+    "initials": "MVE"
   },
   {
     "contestant": "Jenna Morasca",
@@ -1617,7 +1617,7 @@
     "runnerUp": true,
     "id": 1007,
     "pathToPhoto": "/10/7",
-    "initials": "SLG"
+    "initials": "SL"
   },
   {
     "contestant": "Randy Bailey",
@@ -1693,22 +1693,6 @@
     "initials": "JC"
   },
   {
-    "contestant": "Rob 'Boston Rob' Mariano",
-    "seasons": [4, 8, 20, 22, 40],
-    "birthday": "1975-12-25T08:00:00.000Z",
-    "gender": "m",
-    "zodiacSign": "Capricorn",
-    "element": "Earth",
-    "modality": "Cardinal",
-    "placements": [10, 2, 13, 1, 17],
-    "appearances": 5,
-    "runnerUp": true,
-    "winner": true,
-    "id": 410,
-    "pathToPhoto": "/4/10",
-    "initials": "RBRM"
-  },
-  {
     "contestant": "Benjamin 'Coach' Wade",
     "seasons": [18, 20, 23],
     "birthday": "1971-09-18T07:00:00.000Z",
@@ -1780,50 +1764,7 @@
     "runnerUp": true,
     "id": 1202,
     "pathToPhoto": "/12/2",
-    "initials": "DDL"
-  },
-  {
-    "contestant": "Rupert Boneham",
-    "seasons": [7, 8, 20, 27],
-    "birthday": "1964-01-27T08:00:00.000Z",
-    "gender": "m",
-    "zodiacSign": "Aquarius",
-    "element": "Air",
-    "modality": "Fixed",
-    "placements": [8, 4, 6, 20],
-    "appearances": 4,
-    "id": 708,
-    "pathToPhoto": "/7/8",
-    "initials": "RB"
-  },
-  {
-    "contestant": "Colby Donaldson",
-    "seasons": [2, 8, 20],
-    "birthday": "1974-04-01T07:00:00.000Z",
-    "gender": "m",
-    "zodiacSign": "Aries",
-    "element": "Fire",
-    "modality": "Cardinal",
-    "placements": [2, 12, 5],
-    "appearances": 3,
-    "runnerUp": true,
-    "id": 202,
-    "pathToPhoto": "/2/2",
-    "initials": "CD"
-  },
-  {
-    "contestant": "Jerri Manthey",
-    "seasons": [2, 8, 20],
-    "birthday": "1970-09-05T07:00:00.000Z",
-    "gender": "f",
-    "zodiacSign": "Virgo",
-    "element": "Earth",
-    "modality": "Mutable",
-    "placements": [8, 10, 4],
-    "appearances": 3,
-    "id": 208,
-    "pathToPhoto": "/2/8",
-    "initials": "JM"
+    "initials": "DD"
   },
   {
     "contestant": "Russell Hantz",
@@ -1856,20 +1797,5 @@
     "id": 1306,
     "pathToPhoto": "/13/6",
     "initials": "PS"
-  },
-  {
-    "contestant": "Sandra Diaz-Twine",
-    "seasons": [7, 20, 34, 40],
-    "birthday": "1974-07-30T07:00:00.000Z",
-    "gender": "f",
-    "zodiacSign": "Leo",
-    "element": "Fire",
-    "modality": "Fixed",
-    "placements": [1, 1, 15, 16],
-    "appearances": 4,
-    "winner": true,
-    "id": 701,
-    "pathToPhoto": "/7/1",
-    "initials": "SDT"
   }
 ]
