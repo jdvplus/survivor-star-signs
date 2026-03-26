@@ -20,9 +20,9 @@ export default function SurvivorCarousel({
   if (data.length === 0 && !onReroll) return null
 
   return (
-    <div className="container p-4 border border-border rounded-xl shadow-lg">
+    <div className="px-14 py-6 border border-border rounded-xl shadow-lg">
       {onReroll && (
-        <div className="mb-4">
+        <div className="mb-4 flex justify-center">
           <RerollButton onClick={onReroll} />
         </div>
       )}
@@ -42,9 +42,12 @@ export default function SurvivorCarousel({
       >
         <CarouselContent>
           {data.map((survivor) => (
-            <CarouselItem key={survivor.contestant} className="basis-1/2">
+            <CarouselItem
+              key={survivor.contestant}
+              className="basis-1/2 md:basis-1/3"
+            >
               <img
-                className="aspect-auto h-80 m-auto rounded-xl"
+                className="h-80 w-full object-cover object-top rounded-xl"
                 src={`${survivor.pathToPhoto}.png`}
                 alt={survivor.contestant}
               />
