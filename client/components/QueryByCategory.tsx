@@ -7,7 +7,7 @@ import SurvivorCarousel from '@/components/SurvivorCarousel'
 import { useSurvivorsByCategory } from '@/hooks/useSurvivorsByCategory'
 
 const zodiacSigns = Object.values(ZodiacSign)
-const genderOptions: GenderSelectOptions[] = ['men', 'women', 'nb']
+const genderOptions: GenderSelectOptions[] = ['men', 'women']
 
 const singularMap: Record<string, string> = {
   men: 'man',
