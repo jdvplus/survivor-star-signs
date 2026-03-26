@@ -1,13 +1,12 @@
-import { useTheme } from '@/providers/theme'
+import { useTheme } from '@/providers/use-theme'
 import { Button } from '@/components/ui/button'
 import { Sun, Moon } from 'lucide-react'
 
 export default function ThemeToggle() {
-  const { setTheme } = useTheme()
+  const { theme, setTheme } = useTheme()
 
   const toggleTheme = () => {
-    const currentTheme = localStorage.getItem('vite-ui-theme')
-    currentTheme === 'dark' ? setTheme('light') : setTheme('dark')
+    setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
   return (

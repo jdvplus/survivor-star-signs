@@ -20,16 +20,14 @@ export default function SurvivorCarousel({
   return (
     <div className="container p-4 border border-border rounded-xl shadow-lg">
       {onReroll && (
-        <div className="mb-4" onClick={onReroll}>
-          <RerollButton />
+        <div className="mb-4">
+          <RerollButton onClick={onReroll} />
         </div>
       )}
 
       {selectionLabel && (
         <p className="text-3xl mb-4">
-          {data.length}{' '}
-          {selectionLabel.endsWith('s') ? selectionLabel : `${selectionLabel}s`}{' '}
-          have played Survivor.
+          {data.length} {selectionLabel} contestants have played Survivor.
         </p>
       )}
 
