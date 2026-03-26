@@ -12,7 +12,7 @@ pnpm dev
 
 Client runs on `http://localhost:5173`, server on `http://localhost:3000`.
 
-**Note:** Contestant photos in `public/` are gitignored due to file size.
+**Note:** Contestant photos in `public/` are gitignored due to file size. They'll be hosted on AWS S3 soon (wip).
 
 ## API Endpoints
 
