@@ -29,8 +29,8 @@ export default function QueryByCategory() {
   )
 
   return (
-    <div className="container">
-      <div className="flex flex-row">
+    <div className="space-y-6">
+      <div className="flex flex-wrap gap-4">
         <SelectBy
           category="zodiacSign"
           categoryValue={signSelection}

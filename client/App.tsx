@@ -8,26 +8,38 @@ export default function App() {
   const { data: randomSurvivors = [], refetch } = useRandomSurvivors()
 
   return (
-    <div className="my-12">
-      <h1 className="text-6xl font-bold tracking-wide">survivor star signs</h1>
-
-      <div className="container my-4 p-12">
-        <AllSurvivors />
-      </div>
-
-      <div className="container p-4">
+    <div className="py-12 space-y-16">
+      <header className="space-y-6">
+        <div className="flex items-center justify-between">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide">
+            survivor star signs
+          </h1>
+          <ThemeToggle />
+        </div>
         <img
-          className="h-80 m-auto rounded-xl"
+          className="w-full rounded-xl object-cover max-h-72 sm:max-h-80 md:max-h-96"
           src="cover-photo.png"
-          alt="dave & alex"
+          alt="survivor star signs"
         />
-      </div>
+      </header>
 
-      <SurvivorCarousel data={randomSurvivors} onReroll={() => refetch()} />
+      <section className="space-y-6">
+        <AllSurvivors />
+      </section>
 
-      <ThemeToggle />
+      <section className="space-y-6">
+        <h2 className="text-3xl font-semibold tracking-wide">
+          random survivors
+        </h2>
+        <SurvivorCarousel data={randomSurvivors} onReroll={() => refetch()} />
+      </section>
 
-      <QueryByCategory />
+      <section className="space-y-6">
+        <h2 className="text-3xl font-semibold tracking-wide">
+          filter by category
+        </h2>
+        <QueryByCategory />
+      </section>
     </div>
   )
 }

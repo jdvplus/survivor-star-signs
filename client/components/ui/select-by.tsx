@@ -23,22 +23,21 @@ export default function SelectBy({
   categoryOptions: string[]
 }) {
   return (
-    <div className="container p-4">
-      <Select value={categoryValue} onValueChange={setter}>
-        <SelectTrigger className="text-2xl h-[3rem] w-[25rem] m-auto">
-          <SelectValue
-            className="m-auto"
-            placeholder={placeholders[category] || 'select'}
-          />
-        </SelectTrigger>
-        <SelectContent>
-          {categoryOptions.map((option) => (
-            <SelectItem className="text-2xl" key={option} value={option}>
-              {option.toLowerCase()}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
-    </div>
+    <Select value={categoryValue} onValueChange={setter}>
+      <SelectTrigger className="text-xl sm:text-2xl h-12 w-full max-w-80">
+        <SelectValue placeholder={placeholders[category] || 'select'} />
+      </SelectTrigger>
+      <SelectContent>
+        {categoryOptions.map((option) => (
+          <SelectItem
+            className="text-xl sm:text-2xl"
+            key={option}
+            value={option}
+          >
+            {option.toLowerCase()}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
   )
 }
