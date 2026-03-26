@@ -42,7 +42,7 @@ export type Survivor = {
   contestant: string
   nickname?: string
   seasons: number | number[]
-  birthday: string
+  birthday: string | Date
   gender: Gender
   zodiacSign: ZodiacSign
   element: Element

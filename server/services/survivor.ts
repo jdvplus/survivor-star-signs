@@ -2,7 +2,11 @@ import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
-import type { Survivor, Gender, GenderSelectOptions } from '../../shared/types.ts'
+import type {
+  Survivor,
+  Gender,
+  GenderSelectOptions,
+} from '../../shared/types.ts'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const dbPath = path.join(__dirname, '../db/db.json')
@@ -39,11 +43,15 @@ export function getSurvivorsByCategory(
   sign?: string,
   gender?: string
 ): Survivor[] {
-  const convertedGender = gender ? genderMap[gender as GenderSelectOptions] : undefined
+  const convertedGender = gender
+    ? genderMap[gender as GenderSelectOptions]
+    : undefined
 
   return survivors.filter((survivor) => {
     const matchesSign = sign ? survivor.zodiacSign === sign : true
-    const matchesGender = convertedGender ? survivor.gender === convertedGender : true
+    const matchesGender = convertedGender
+      ? survivor.gender === convertedGender
+      : true
     return matchesSign && matchesGender
   })
 }

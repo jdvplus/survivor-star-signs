@@ -54,9 +54,7 @@ export function ThemeProvider({
     },
   }
 
-  return (
-    <ThemeProviderContext value={value}>{children}</ThemeProviderContext>
-  )
+  return <ThemeProviderContext value={value}>{children}</ThemeProviderContext>
 }
 
 export function useTheme() {

@@ -28,9 +28,7 @@ export default function SurvivorCarousel({
       {selectionLabel && (
         <p className="text-3xl mb-4">
           {data.length}{' '}
-          {selectionLabel.endsWith('s')
-            ? selectionLabel
-            : `${selectionLabel}s`}{' '}
+          {selectionLabel.endsWith('s') ? selectionLabel : `${selectionLabel}s`}{' '}
           have played Survivor.
         </p>
       )}
