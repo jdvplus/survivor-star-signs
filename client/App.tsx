@@ -17,7 +17,7 @@ export default function App() {
 
       <div className="container p-4">
         <img
-          className="h-[20rem] m-auto rounded-xl"
+          className="h-80 m-auto rounded-xl"
           src="cover-photo.png"
           alt="dave & alex"
         />

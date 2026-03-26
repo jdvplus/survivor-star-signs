@@ -41,7 +41,7 @@ export default function SurvivorCarousel({
           {data.map((survivor) => (
             <CarouselItem key={survivor.contestant} className="basis-1/2">
               <img
-                className="aspect-auto h-[20rem] m-auto rounded-xl"
+                className="aspect-auto h-80 m-auto rounded-xl"
                 src={`${survivor.pathToPhoto}.png`}
                 alt={survivor.contestant}
               />
