@@ -17,6 +17,8 @@ export default function SurvivorCarousel({
   onReroll?: () => void
   selectionLabel?: string
 }) {
+  if (data.length === 0 && !onReroll) return null
+
   return (
     <div className="container p-4 border border-border rounded-xl shadow-lg">
       {onReroll && (
@@ -27,7 +29,8 @@ export default function SurvivorCarousel({
 
       {selectionLabel && (
         <p className="text-3xl mb-4">
-          {data.length} {selectionLabel} contestants have played Survivor.
+          {data.length} {selectionLabel} {data.length === 1 ? 'has' : 'have'}{' '}
+          played Survivor.
         </p>
       )}
 

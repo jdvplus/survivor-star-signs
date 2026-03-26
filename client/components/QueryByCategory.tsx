@@ -9,6 +9,16 @@ import { useSurvivorsByCategory } from '@/hooks/useSurvivorsByCategory'
 const zodiacSigns = Object.values(ZodiacSign)
 const genderOptions: GenderSelectOptions[] = ['men', 'women', 'nb']
 
+const singularMap: Record<string, string> = {
+  men: 'man',
+  women: 'woman',
+  contestants: 'contestant',
+}
+
+function singularize(word: string, count: number): string {
+  return count === 1 ? (singularMap[word] ?? word) : word
+}
+
 export default function QueryByCategory() {
   const [signSelection, setSignSelection] = useState('')
   const [genderSelection, setGenderSelection] = useState('')
@@ -36,12 +46,22 @@ export default function QueryByCategory() {
         />
       </div>
 
-      {(signSelection || genderSelection) && (
-        <SurvivorCarousel
-          data={filteredSurvivors}
-          selectionLabel={signSelection || genderSelection}
-        />
-      )}
+      <SurvivorCarousel
+        data={filteredSurvivors}
+        selectionLabel={
+          signSelection || genderSelection
+            ? [
+                signSelection,
+                singularize(
+                  genderSelection || 'contestants',
+                  filteredSurvivors.length
+                ),
+              ]
+                .filter(Boolean)
+                .join(' ')
+            : undefined
+        }
+      />
     </div>
   )
 }
