@@ -1,62 +1,57 @@
-type Survivors = {
-	// (below properties dynamically added after)
-	id?: number;
-	pathToPhoto?: string;
-	initials?: string;
+export const ZodiacSign = {
+  Aries: 'Aries',
+  Taurus: 'Taurus',
+  Gemini: 'Gemini',
+  Cancer: 'Cancer',
+  Leo: 'Leo',
+  Virgo: 'Virgo',
+  Libra: 'Libra',
+  Scorpio: 'Scorpio',
+  Sagittarius: 'Sagittarius',
+  Capricorn: 'Capricorn',
+  Aquarius: 'Aquarius',
+  Pisces: 'Pisces',
+} as const
 
-	contestant: string;
-	nickname?: string;
-	seasons: number | Array<number>;
-	birthday: Date;
-	gender: Gender;
-	zodiacSign: ZodiacSign;
-	element: Element;
-	modality: Modality;
-	placements: number | Array<number>;
-	appearances: number;
-	runnerUp?: true;
-	winner?: true;
-	zeroVoteFinalist?: true;
-	medevac?: true;
-	quitter?: true;
-};
+export type ZodiacSign = (typeof ZodiacSign)[keyof typeof ZodiacSign]
 
-type Gender = 'f' | 'm' | 'nb';
-type GenderSelectOptions = 'men' | 'women' | 'nb';
+export const Element = {
+  Fire: 'Fire',
+  Earth: 'Earth',
+  Air: 'Air',
+  Water: 'Water',
+} as const
 
-enum ZodiacSign {
-	Aries = 'Aries',
-	Taurus = 'Taurus',
-	Gemini = 'Gemini',
-	Cancer = 'Cancer',
-	Leo = 'Leo',
-	Virgo = 'Virgo',
-	Libra = 'Libra',
-	Scorpio = 'Scorpio',
-	Sagittarius = 'Sagittarius',
-	Capricorn = 'Capricorn',
-	Aquarius = 'Aquarius',
-	Pisces = 'Pisces',
+export type Element = (typeof Element)[keyof typeof Element]
+
+export const Modality = {
+  Cardinal: 'Cardinal',
+  Fixed: 'Fixed',
+  Mutable: 'Mutable',
+} as const
+
+export type Modality = (typeof Modality)[keyof typeof Modality]
+
+export type Gender = 'f' | 'm' | 'nb'
+export type GenderSelectOptions = 'men' | 'women' | 'nb'
+
+export type Survivor = {
+  id?: number
+  pathToPhoto?: string
+  initials?: string
+  contestant: string
+  nickname?: string
+  seasons: number | number[]
+  birthday: string
+  gender: Gender
+  zodiacSign: ZodiacSign
+  element: Element
+  modality: Modality
+  placements: number | number[]
+  appearances: number
+  runnerUp?: true
+  winner?: true
+  zeroVoteFinalist?: true
+  medevac?: true
+  quitter?: true
 }
-
-enum Element {
-	Fire = 'Fire',
-	Earth = 'Earth',
-	Air = 'Air',
-	Water = 'Water',
-}
-
-enum Modality {
-	Cardinal = 'Cardinal',
-	Fixed = 'Fixed',
-	Mutable = 'Mutable',
-}
-
-export {
-	type Survivors,
-	type Gender,
-	type GenderSelectOptions,
-	ZodiacSign,
-	Element,
-	Modality,
-};
