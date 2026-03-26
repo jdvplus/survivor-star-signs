@@ -11,6 +11,9 @@
 @theme {
   --font-sans: 'PP Neue Montreal', sans-serif;
 
+  --animate-scroll-left: scroll-left 30s linear infinite;
+  --animate-scroll-right: scroll-right 30s linear infinite;
+
   --radius-sm: 0.25rem;
   --radius-md: 0.375rem;
   --radius-lg: 0.5rem;
@@ -35,6 +38,24 @@
   --color-border: oklch(0.922 0.008 285.82);
   --color-input: oklch(0.922 0.008 285.82);
   --color-ring: oklch(0.708 0.028 285.82);
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 :root.dark {
