@@ -12,18 +12,25 @@ export default function SurvivorCarousel({
   data,
   onReroll,
   selectionLabel,
+  countdown,
 }: {
   data: Survivor[]
   onReroll?: () => void
   selectionLabel?: string
+  countdown?: number
 }) {
   if (data.length === 0 && !onReroll) return null
 
   return (
     <div className="px-14 py-6 border border-border rounded-xl shadow-lg">
       {onReroll && (
-        <div className="mb-4 flex justify-center">
+        <div className="mb-4 flex items-center justify-center gap-3">
           <RerollButton onClick={onReroll} />
+          {countdown !== undefined && (
+            <span className="text-sm text-muted-foreground tabular-nums">
+              {countdown}s
+            </span>
+          )}
         </div>
       )}
 
