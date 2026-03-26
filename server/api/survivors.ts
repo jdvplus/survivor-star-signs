@@ -8,6 +8,10 @@ import {
   getSurvivorsByCategory,
 } from '../services/survivor.ts'
 
+function queryString(value: unknown): string | undefined {
+  return typeof value === 'string' ? value : undefined
+}
+
 const router = Router()
 
 router.get(ENDPOINTS.SURVIVORS, (_req, res) => {
@@ -19,9 +23,8 @@ router.get(ENDPOINTS.RANDOM, (_req, res) => {
 })
 
 router.get(`${ENDPOINTS.SURVIVORS}/filter`, (req, res) => {
-  const sign = typeof req.query.sign === 'string' ? req.query.sign : undefined
-  const gender =
-    typeof req.query.gender === 'string' ? req.query.gender : undefined
+  const sign = queryString(req.query.sign)
+  const gender = queryString(req.query.gender)
 
   if (sign && !isZodiacSign(sign)) {
     res.status(400).json({ error: `Invalid zodiac sign: ${sign}` })
