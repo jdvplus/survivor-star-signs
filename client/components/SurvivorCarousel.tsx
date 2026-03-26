@@ -20,16 +20,14 @@ export default function SurvivorCarousel({
   return (
     <div className="container p-4 border border-border rounded-xl shadow-lg">
       {onReroll && (
-        <div className="mb-4" onClick={onReroll}>
-          <RerollButton />
+        <div className="mb-4">
+          <RerollButton onClick={onReroll} />
         </div>
       )}
 
       {selectionLabel && (
         <p className="text-3xl mb-4">
-          {data.length}{' '}
-          {selectionLabel.endsWith('s') ? selectionLabel : `${selectionLabel}s`}{' '}
-          have played Survivor.
+          {data.length} {selectionLabel} contestants have played Survivor.
         </p>
       )}
 
@@ -43,7 +41,7 @@ export default function SurvivorCarousel({
           {data.map((survivor) => (
             <CarouselItem key={survivor.contestant} className="basis-1/2">
               <img
-                className="aspect-auto h-[20rem] m-auto rounded-xl"
+                className="aspect-auto h-80 m-auto rounded-xl"
                 src={`${survivor.pathToPhoto}.png`}
                 alt={survivor.contestant}
               />

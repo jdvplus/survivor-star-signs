@@ -35,6 +35,19 @@ export type Modality = (typeof Modality)[keyof typeof Modality]
 export type Gender = 'f' | 'm' | 'nb'
 export type GenderSelectOptions = 'men' | 'women' | 'nb'
 
+const zodiacSignValues = new Set<string>(Object.values(ZodiacSign))
+const genderSelectValues = new Set<string>(['men', 'women', 'nb'])
+
+export function isZodiacSign(value: string): value is ZodiacSign {
+  return zodiacSignValues.has(value)
+}
+
+export function isGenderSelectOption(
+  value: string
+): value is GenderSelectOptions {
+  return genderSelectValues.has(value)
+}
+
 export type Survivor = {
   id?: number
   pathToPhoto?: string
